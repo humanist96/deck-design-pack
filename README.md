@@ -100,7 +100,13 @@ Verified per template:
 |---|---|
 | `svg_quality_checker --template-mode` | 0 errors, 0 warnings |
 | `template_preview_pptx.py` read-back | 10 slides · 1 master · 9 layouts |
-| End-to-end deck generation (`strict` adherence) | `verify_deck` PASS |
+| End-to-end deck generation (`strict` adherence) | 0 errors, 0 warnings · `verify_deck` PASS |
+| Exported package | 1 master · layout picker names preserved · placeholders bound |
+
+All six were verified end to end, not just structurally: a 7-page deck was generated from each
+template under `strict` adherence — cover, agenda, section, the signature page, metrics, a chart
+with real data, and the closing — and each exported package opens with the template's own layout
+names in the PowerPoint picker.
 
 Authoring details: [`docs/authoring.md`](docs/authoring.md).
 

@@ -21,7 +21,7 @@
   </defs>
 
   <rect id="master-bg" width="1280" height="720" fill="#ffffff" data-pptx-layer="master" data-pptx-editable="false"/>
-  <ellipse id="layout-mesh-blob" cx="980" cy="330" rx="420" ry="300" fill="url(#mB)" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <ellipse id="layout-mesh-blob" cx="1040" cy="330" rx="400" ry="300" fill="url(#mB)" data-pptx-layer="layout" data-pptx-editable="false"/>
 
   <g id="statement-mesh">
     <ellipse cx="1200" cy="180" rx="300" ry="220" fill="url(#mA)"/>
