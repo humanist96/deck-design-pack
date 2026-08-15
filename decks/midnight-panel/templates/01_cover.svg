@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="midnight-master" data-pptx-master-name="Midnight Panel" data-pptx-layout="01_cover" data-pptx-layout-name="Cover">
+  <!-- Midnight Panel — 01 Cover -->
+
+  <rect id="master-bg" width="1280" height="720" fill="#010102" data-pptx-layer="master" data-pptx-editable="false"/>
+
+  <g id="cover-accent">
+    <rect x="72" y="252" width="48" height="3" fill="#5e6ad2"/>
+    <text x="72" y="298" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="15" letter-spacing="1.5" fill="#5e6ad2">{{KICKER}}</text>
+  </g>
+
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="72 330 1136 112">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="72" y="412" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="88" letter-spacing="-3.2" fill="#f7f8f8">{{TITLE}}</text>
+  </g>
+
+  <g id="subtitle-slot" data-pptx-placeholder="subtitle" data-pptx-placeholder-idx="2" data-pptx-placeholder-bounds="72 460 820 44">
+    <text id="subtitle-carrier" data-pptx-placeholder-carrier="true" x="72" y="492" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="28" letter-spacing="-0.6" fill="#8a8f98">{{SUBTITLE}}</text>
+  </g>
+
+  <g id="cover-rule">
+    <line x1="72" y1="546" x2="440" y2="546" stroke="#34343a" stroke-width="1"/>
+  </g>
+
+  <g id="page-foot">
+    <text x="72" y="676" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#62666d">{{BRAND_MARK}}</text>
+    <text x="1208" y="676" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#62666d">{{PAGE_LABEL}}</text>
+  </g>
+</svg>

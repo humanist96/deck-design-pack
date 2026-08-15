@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="gmesh-master" data-pptx-master-name="Gradient Mesh Fintech" data-pptx-layout="01_cover" data-pptx-layout-name="Cover">
+  <!-- Gradient Mesh Fintech — 01 Cover -->
+  <defs>
+    <linearGradient id="mA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5e9d4" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#f5a623" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="mB" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#533afd" stop-opacity="0.72"/>
+      <stop offset="100%" stop-color="#f96bee" stop-opacity="0.52"/>
+    </linearGradient>
+    <linearGradient id="mC" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ea2261" stop-opacity="0.58"/>
+      <stop offset="100%" stop-color="#4434d4" stop-opacity="0.45"/>
+    </linearGradient>
+    <linearGradient id="mFade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="62%" stop-color="#ffffff" stop-opacity="0.86"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+
+  <rect id="master-bg" width="1280" height="720" fill="#ffffff" data-pptx-layer="master" data-pptx-editable="false"/>
+  <ellipse id="layout-mesh-a" cx="360" cy="70" rx="440" ry="210" fill="url(#mA)" data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <g id="cover-mesh">
+    <ellipse cx="880" cy="110" rx="420" ry="230" fill="url(#mB)"/>
+    <ellipse cx="1170" cy="30" rx="300" ry="180" fill="url(#mC)"/>
+    <rect x="0" y="0" width="1280" height="720" fill="url(#mFade)"/>
+  </g>
+
+  <g id="cover-kicker">
+    <text x="80" y="342" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="15" letter-spacing="1.6" fill="#533afd">{{KICKER}}</text>
+  </g>
+
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="80 366 1120 98">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="80" y="438" font-family="'Pretendard Light', Pretendard, 'Malgun Gothic', sans-serif" font-size="76" letter-spacing="-2.4" fill="#0d253d">{{TITLE}}</text>
+  </g>
+
+  <g id="subtitle-slot" data-pptx-placeholder="subtitle" data-pptx-placeholder-idx="2" data-pptx-placeholder-bounds="80 482 820 42">
+    <text id="subtitle-carrier" data-pptx-placeholder-carrier="true" x="80" y="514" font-family="'Pretendard Light', Pretendard, 'Malgun Gothic', sans-serif" font-size="26" letter-spacing="-0.4" fill="#273951">{{SUBTITLE}}</text>
+  </g>
+
+  <g id="cover-cta">
+    <rect x="80" y="554" width="216" height="48" rx="9999" fill="#533afd"/>
+    <text x="188" y="584" text-anchor="middle" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#ffffff">{{CTA_LABEL}}</text>
+  </g>
+
+  <g id="page-foot">
+    <text x="80" y="674" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#64748d">{{BRAND_MARK}}</text>
+    <text x="1200" y="674" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#64748d">{{PAGE_LABEL}}</text>
+  </g>
+</svg>

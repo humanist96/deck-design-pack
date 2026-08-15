@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="warmdoc-master" data-pptx-master-name="Warm Document" data-pptx-layout="04_tinted_cards" data-pptx-layout-name="Tinted Cards">
+  <!-- Warm Document — 04 Signature: pastel tint card stack -->
+  <rect id="master-bg" width="1280" height="720" fill="#ffffff" data-pptx-layer="master" data-pptx-editable="false"/>
+  <rect id="layout-bg-surface" width="1280" height="720" fill="#f6f5f4" data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <g id="tint-kicker">
+    <text x="88" y="140" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" letter-spacing="1" fill="#787671">{{KICKER}}</text>
+  </g>
+
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="88 158 1104 60">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="88" y="204" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="44" letter-spacing="-1.2" fill="#1a1a1a">{{TITLE}}</text>
+  </g>
+
+  <g id="tint-lead">
+    <text x="88" y="250" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="22" letter-spacing="-0.2" fill="#787671">{{LEAD}}</text>
+  </g>
+
+  <g id="tint-card-1">
+    <rect x="88" y="304" width="200" height="268" rx="12" fill="#ffe8d4" stroke="#e5e3df" stroke-width="1"/>
+    <text x="112" y="356" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" letter-spacing="1" fill="#37352f">01</text>
+    <text x="112" y="406" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="22" letter-spacing="-0.2" fill="#1a1a1a">{{TINT_1_LABEL}}</text>
+    <text x="112" y="448" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#37352f">{{TINT_1_BODY}}</text>
+  </g>
+
+  <g id="tint-card-2">
+    <rect x="312" y="304" width="200" height="268" rx="12" fill="#fde0ec" stroke="#e5e3df" stroke-width="1"/>
+    <text x="336" y="356" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" letter-spacing="1" fill="#37352f">02</text>
+    <text x="336" y="406" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="22" letter-spacing="-0.2" fill="#1a1a1a">{{TINT_2_LABEL}}</text>
+    <text x="336" y="448" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#37352f">{{TINT_2_BODY}}</text>
+  </g>
+
+  <g id="tint-card-3">
+    <rect x="536" y="304" width="200" height="268" rx="12" fill="#d9f3e1" stroke="#e5e3df" stroke-width="1"/>
+    <text x="560" y="356" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" letter-spacing="1" fill="#37352f">03</text>
+    <text x="560" y="406" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="22" letter-spacing="-0.2" fill="#1a1a1a">{{TINT_3_LABEL}}</text>
+    <text x="560" y="448" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#37352f">{{TINT_3_BODY}}</text>
+  </g>
+
+  <g id="tint-card-4">
+    <rect x="760" y="304" width="200" height="268" rx="12" fill="#e6e0f5" stroke="#e5e3df" stroke-width="1"/>
+    <text x="784" y="356" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" letter-spacing="1" fill="#37352f">04</text>
+    <text x="784" y="406" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="22" letter-spacing="-0.2" fill="#1a1a1a">{{TINT_4_LABEL}}</text>
+    <text x="784" y="448" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#37352f">{{TINT_4_BODY}}</text>
+  </g>
+
+  <g id="tint-card-5">
+    <rect x="984" y="304" width="200" height="268" rx="12" fill="#dcecfa" stroke="#e5e3df" stroke-width="1"/>
+    <text x="1008" y="356" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" letter-spacing="1" fill="#37352f">05</text>
+    <text x="1008" y="406" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="22" letter-spacing="-0.2" fill="#1a1a1a">{{TINT_5_LABEL}}</text>
+    <text x="1008" y="448" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#37352f">{{TINT_5_BODY}}</text>
+  </g>
+
+  <g id="page-foot">
+    <text x="88" y="672" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#787671">{{BRAND_MARK}}</text>
+    <text x="1192" y="672" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#787671">{{PAGE_LABEL}}</text>
+  </g>
+</svg>

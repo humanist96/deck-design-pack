@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="openroad-master" data-pptx-master-name="Open Road" data-pptx-layout="04_fullbleed_hero" data-pptx-layout-name="Fullbleed Hero">
+  <!-- Open Road — 04 Signature: one photograph, one sentence -->
+  <defs>
+    <pattern id="photo-hatch" patternUnits="userSpaceOnUse" width="20" height="20" patternTransform="rotate(45)" data-pptx-pattern="ltUpDiag">
+      <rect width="20" height="20" fill="#171A20"/>
+      <rect width="10" height="20" fill="#393C41"/>
+    </pattern>
+  </defs>
+
+  <rect id="master-bg" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+  <rect id="layout-photo-plate" width="1280" height="720" fill="url(#photo-hatch)" data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <g id="photo-guide">
+    <text x="640" y="180" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#8E8E8E">full-bleed cinematic photograph — replace this plate with an image</text>
+  </g>
+
+  <g id="hero-kicker">
+    <text x="640" y="322" text-anchor="middle" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" letter-spacing="1.5" fill="#8E8E8E">{{KICKER}}</text>
+  </g>
+
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="192 344 896 64">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="640" y="394" text-anchor="middle" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="44" letter-spacing="-1.1" fill="#FFFFFF">{{STATEMENT}}</text>
+  </g>
+
+  <g id="hero-rule">
+    <rect x="616" y="438" width="48" height="3" fill="#3E6AE1"/>
+  </g>
+
+  <g id="page-foot">
+    <text x="96" y="672" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#8E8E8E">{{BRAND_MARK}}</text>
+    <text x="1184" y="672" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#8E8E8E">{{PAGE_LABEL}}</text>
+  </g>
+</svg>

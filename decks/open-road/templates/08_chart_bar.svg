@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="openroad-master" data-pptx-master-name="Open Road" data-pptx-layout="chart_linear" data-pptx-layout-name="Chart (Linear)">
+  <!-- Open Road — 08 Bar chart — sample data; regenerated with real data at deck generation -->
+  <rect id="master-bg" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="96 112 690 56">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="96" y="156" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="40" letter-spacing="-1" fill="#171A20">{{TITLE}}</text>
+  </g>
+
+  <g id="chart-legend">
+    <rect x="880" y="138" width="12" height="12" fill="#3E6AE1"/>
+    <text x="902" y="150" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#5C5E62">{{LEGEND_PEAK}}</text>
+    <rect x="1040" y="138" width="12" height="12" fill="#EEEEEE"/>
+    <text x="1062" y="150" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#5C5E62">{{LEGEND_OTHERS}}</text>
+  </g>
+
+  <!-- chart-plot-area: 184,250,1184,540 -->
+  <g id="chart-body">
+    <g id="chart-grid" stroke="#EEEEEE" stroke-width="1">
+      <line x1="184" y1="250" x2="1184" y2="250"/>
+      <line x1="184" y1="322" x2="1184" y2="322"/>
+      <line x1="184" y1="395" x2="1184" y2="395"/>
+      <line x1="184" y1="467" x2="1184" y2="467"/>
+      <line x1="184" y1="540" x2="1184" y2="540"/>
+    </g>
+
+    <g id="chart-y-axis" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#5C5E62">
+      <text x="170" y="256">100</text>
+      <text x="170" y="328">75</text>
+      <text x="170" y="401">50</text>
+      <text x="170" y="473">25</text>
+      <text x="170" y="546">0</text>
+    </g>
+
+    <g id="chart-bars">
+      <rect x="184" y="418" width="112" height="122" fill="#EEEEEE"/>
+      <rect x="361" y="380" width="112" height="160" fill="#EEEEEE"/>
+      <rect x="538" y="357" width="112" height="183" fill="#EEEEEE"/>
+      <rect x="715" y="285" width="112" height="255" fill="#3E6AE1"/>
+      <rect x="892" y="334" width="112" height="206" fill="#EEEEEE"/>
+      <rect x="1069" y="311" width="112" height="229" fill="#EEEEEE"/>
+    </g>
+
+    <g id="chart-values" text-anchor="middle" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#5C5E62">
+      <text x="240" y="404">42</text>
+      <text x="417" y="366">55</text>
+      <text x="594" y="343">63</text>
+      <text x="771" y="271" fill="#171A20">88</text>
+      <text x="948" y="320">71</text>
+      <text x="1125" y="297">79</text>
+    </g>
+
+    <g id="chart-x-axis" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#5C5E62">
+      <text x="240" y="572">01</text>
+      <text x="417" y="572">02</text>
+      <text x="594" y="572">03</text>
+      <text x="771" y="572">04</text>
+      <text x="948" y="572">05</text>
+      <text x="1125" y="572">06</text>
+    </g>
+  </g>
+
+  <g id="page-foot">
+    <text x="96" y="672" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#5C5E62">{{BRAND_MARK}}</text>
+    <text x="1184" y="672" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#5C5E62">{{PAGE_LABEL}}</text>
+  </g>
+</svg>

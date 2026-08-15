@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="warmdoc-master" data-pptx-master-name="Warm Document" data-pptx-layout="10_closing" data-pptx-layout-name="Closing (Navy)">
+  <!-- Warm Document — 10 Closing -->
+  <rect id="master-bg" width="1280" height="720" fill="#ffffff" data-pptx-layer="master" data-pptx-editable="false"/>
+  <rect id="layout-bg-navy" width="1280" height="720" fill="#0a1530" data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="88 296 1104 76">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="88" y="352" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="56" letter-spacing="-1.6" fill="#ffffff">{{BRAND_MARK}}</text>
+  </g>
+
+  <g id="closing-copy">
+    <rect x="88" y="394" width="88" height="4" rx="2" fill="#5645d4"/>
+    <text x="88" y="448" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="22" letter-spacing="-0.2" fill="#ffffff">{{CLOSING_LINE}}</text>
+    <text x="88" y="490" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#e6e0f5">{{CONTACT_LINE}}</text>
+  </g>
+
+  <g id="page-foot">
+    <text x="88" y="672" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#787671">{{BRAND_MARK}}</text>
+    <text x="1192" y="672" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#787671">{{PAGE_LABEL}}</text>
+  </g>
+</svg>

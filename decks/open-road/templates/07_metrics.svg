@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="openroad-master" data-pptx-master-name="Open Road" data-pptx-layout="07_metrics" data-pptx-layout-name="Metrics">
+  <!-- Open Road — 07 Metrics band (3-up) -->
+  <rect id="master-bg" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+
+  <g id="metrics-kicker">
+    <text x="96" y="148" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" letter-spacing="1.5" fill="#3E6AE1">{{KICKER}}</text>
+  </g>
+
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="96 168 1088 56">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="96" y="212" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="40" letter-spacing="-1" fill="#171A20">{{TITLE}}</text>
+  </g>
+
+  <g id="metrics-lead">
+    <text x="96" y="258" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="22" letter-spacing="-0.2" fill="#5C5E62">{{LEAD}}</text>
+  </g>
+
+  <g id="metric-1">
+    <line x1="96" y1="326" x2="1184" y2="326" stroke="#171A20" stroke-width="2"/>
+    <text x="96" y="440" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="52" letter-spacing="-1.4" fill="#3E6AE1">{{METRIC_1_VALUE}}</text>
+    <text x="96" y="486" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#393C41">{{METRIC_1_LABEL}}</text>
+    <text x="96" y="522" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#5C5E62">{{METRIC_1_DELTA}}</text>
+  </g>
+
+  <g id="metric-2">
+    <line x1="458" y1="386" x2="458" y2="546" stroke="#EEEEEE" stroke-width="1"/>
+    <text x="506" y="440" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="52" letter-spacing="-1.4" fill="#171A20">{{METRIC_2_VALUE}}</text>
+    <text x="506" y="486" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#393C41">{{METRIC_2_LABEL}}</text>
+    <text x="506" y="522" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#5C5E62">{{METRIC_2_DELTA}}</text>
+  </g>
+
+  <g id="metric-3">
+    <line x1="820" y1="386" x2="820" y2="546" stroke="#EEEEEE" stroke-width="1"/>
+    <text x="868" y="440" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="52" letter-spacing="-1.4" fill="#171A20">{{METRIC_3_VALUE}}</text>
+    <text x="868" y="486" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#393C41">{{METRIC_3_LABEL}}</text>
+    <text x="868" y="522" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#5C5E62">{{METRIC_3_DELTA}}</text>
+    <line x1="96" y1="592" x2="1184" y2="592" stroke="#EEEEEE" stroke-width="1"/>
+  </g>
+
+  <g id="page-foot">
+    <text x="96" y="672" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#5C5E62">{{BRAND_MARK}}</text>
+    <text x="1184" y="672" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#5C5E62">{{PAGE_LABEL}}</text>
+  </g>
+</svg>

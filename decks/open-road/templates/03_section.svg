@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="openroad-master" data-pptx-master-name="Open Road" data-pptx-layout="03_section" data-pptx-layout-name="Section (Carbon)">
+  <!-- Open Road — 03 Section: carbon dark still frame -->
+  <rect id="master-bg" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+  <rect id="layout-bg-carbon" width="1280" height="720" fill="#171A20" data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <g id="section-kicker">
+    <text x="96" y="336" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" letter-spacing="1.5" fill="#8E8E8E">{{KICKER}}</text>
+  </g>
+
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="96 360 1088 76">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="96" y="416" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="56" letter-spacing="-1.5" fill="#FFFFFF">{{TITLE}}</text>
+  </g>
+
+  <g id="section-rule">
+    <rect x="96" y="460" width="72" height="3" fill="#3E6AE1"/>
+  </g>
+
+  <g id="page-foot">
+    <text x="96" y="672" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#8E8E8E">{{BRAND_MARK}}</text>
+    <text x="1184" y="672" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#8E8E8E">{{PAGE_LABEL}}</text>
+  </g>
+</svg>

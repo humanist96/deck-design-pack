@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="gmesh-master" data-pptx-master-name="Gradient Mesh Fintech" data-pptx-layout="05_two_column" data-pptx-layout-name="Two Column">
+  <!-- Gradient Mesh Fintech — 05 Two column -->
+  <rect id="master-bg" width="1280" height="720" fill="#ffffff" data-pptx-layer="master" data-pptx-editable="false"/>
+  <line id="layout-column-divider" x1="628" y1="108" x2="628" y2="576" stroke="#e3e8ee" stroke-width="1" data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="80 108 1120 56">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="80" y="152" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="40" letter-spacing="-1.1" fill="#0d253d">{{TITLE}}</text>
+  </g>
+
+  <g id="column-lead">
+    <text x="80" y="200" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="22" letter-spacing="-0.2" fill="#64748d">{{LEAD}}</text>
+  </g>
+
+  <g id="column-body">
+    <text x="80" y="284" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#273951">{{BODY}}</text>
+  </g>
+
+  <g id="column-points">
+    <line x1="80" y1="334" x2="564" y2="334" stroke="#e3e8ee" stroke-width="1"/>
+    <circle cx="88" cy="372" r="4" fill="#533afd"/>
+    <text x="106" y="380" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#0d253d">{{POINT_1}}</text>
+    <line x1="80" y1="412" x2="564" y2="412" stroke="#e3e8ee" stroke-width="1"/>
+    <circle cx="88" cy="450" r="4" fill="#b9b9f9"/>
+    <text x="106" y="458" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#273951">{{POINT_2}}</text>
+    <line x1="80" y1="490" x2="564" y2="490" stroke="#e3e8ee" stroke-width="1"/>
+    <circle cx="88" cy="528" r="4" fill="#b9b9f9"/>
+    <text x="106" y="536" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#273951">{{POINT_3}}</text>
+    <line x1="80" y1="568" x2="564" y2="568" stroke="#e3e8ee" stroke-width="1"/>
+  </g>
+
+  <g id="side-stack">
+    <rect x="692" y="196" width="508" height="112" rx="12" fill="#f6f9fc" stroke="#e3e8ee" stroke-width="1"/>
+    <rect x="724" y="228" width="48" height="48" rx="12" fill="#533afd"/>
+    <rect x="796" y="238" width="188" height="10" rx="5" fill="#0d253d"/>
+    <rect x="796" y="262" width="292" height="8" rx="4" fill="#e3e8ee"/>
+    <rect x="692" y="332" width="508" height="112" rx="12" fill="#f6f9fc" stroke="#e3e8ee" stroke-width="1"/>
+    <rect x="724" y="364" width="48" height="48" rx="12" fill="#b9b9f9"/>
+    <rect x="796" y="374" width="156" height="10" rx="5" fill="#273951"/>
+    <rect x="796" y="398" width="248" height="8" rx="4" fill="#e3e8ee"/>
+    <rect x="692" y="468" width="508" height="112" rx="12" fill="#f6f9fc" stroke="#e3e8ee" stroke-width="1"/>
+    <rect x="724" y="500" width="48" height="48" rx="12" fill="#b9b9f9"/>
+    <rect x="796" y="510" width="128" height="10" rx="5" fill="#273951"/>
+    <rect x="796" y="534" width="208" height="8" rx="4" fill="#e3e8ee"/>
+  </g>
+
+  <g id="page-foot">
+    <text x="80" y="674" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#64748d">{{BRAND_MARK}}</text>
+    <text x="1200" y="674" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#64748d">{{PAGE_LABEL}}</text>
+  </g>
+</svg>

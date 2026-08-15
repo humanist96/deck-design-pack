@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="polarity-master" data-pptx-master-name="Polarity Mono" data-pptx-layout="05_two_column" data-pptx-layout-name="Two Column">
+  <!-- Polarity Mono — 05 Two column (text left / card stack right) -->
+
+  <rect id="master-bg" width="1280" height="720" fill="#fafafa" data-pptx-layer="master" data-pptx-editable="false"/>
+  <line id="layout-column-divider" x1="620" y1="108" x2="620" y2="576" stroke="#ebebeb" stroke-width="1" data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="72 108 1136 58">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="72" y="154" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="42" letter-spacing="-1.3" fill="#171717">{{TITLE}}</text>
+  </g>
+
+  <g id="column-lead">
+    <text x="72" y="202" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="22" letter-spacing="-0.3" fill="#4d4d4d">{{LEAD}}</text>
+  </g>
+
+  <g id="column-body">
+    <text x="72" y="286" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#4d4d4d">{{BODY}}</text>
+  </g>
+
+  <g id="column-points">
+    <line x1="72" y1="336" x2="556" y2="336" stroke="#ebebeb" stroke-width="1"/>
+    <rect x="72" y="372" width="6" height="6" rx="1" fill="#171717"/>
+    <text x="96" y="380" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#171717">{{POINT_1}}</text>
+    <line x1="72" y1="414" x2="556" y2="414" stroke="#ebebeb" stroke-width="1"/>
+    <rect x="72" y="450" width="6" height="6" rx="1" fill="#888888"/>
+    <text x="96" y="458" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#4d4d4d">{{POINT_2}}</text>
+    <line x1="72" y1="492" x2="556" y2="492" stroke="#ebebeb" stroke-width="1"/>
+    <rect x="72" y="528" width="6" height="6" rx="1" fill="#888888"/>
+    <text x="96" y="536" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#4d4d4d">{{POINT_3}}</text>
+    <line x1="72" y1="570" x2="556" y2="570" stroke="#ebebeb" stroke-width="1"/>
+  </g>
+
+  <g id="side-stack">
+    <rect x="684" y="196" width="524" height="112" rx="12" fill="#ffffff" stroke="#ebebeb" stroke-width="1"/>
+    <rect x="716" y="228" width="40" height="40" rx="6" fill="#171717"/>
+    <rect x="780" y="238" width="196" height="10" rx="5" fill="#171717"/>
+    <rect x="780" y="262" width="288" height="8" rx="4" fill="#ebebeb"/>
+    <rect x="684" y="332" width="524" height="112" rx="12" fill="#ffffff" stroke="#ebebeb" stroke-width="1"/>
+    <rect x="716" y="364" width="40" height="40" rx="6" fill="#f5f5f5"/>
+    <rect x="780" y="374" width="160" height="10" rx="5" fill="#4d4d4d"/>
+    <rect x="780" y="398" width="248" height="8" rx="4" fill="#ebebeb"/>
+    <rect x="684" y="468" width="524" height="112" rx="12" fill="#ffffff" stroke="#ebebeb" stroke-width="1"/>
+    <rect x="716" y="500" width="40" height="40" rx="6" fill="#f5f5f5"/>
+    <rect x="780" y="510" width="132" height="10" rx="5" fill="#4d4d4d"/>
+    <rect x="780" y="534" width="212" height="8" rx="4" fill="#ebebeb"/>
+  </g>
+
+  <g id="page-foot">
+    <text x="72" y="676" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#888888">{{BRAND_MARK}}</text>
+    <text x="1208" y="676" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#888888">{{PAGE_LABEL}}</text>
+  </g>
+</svg>

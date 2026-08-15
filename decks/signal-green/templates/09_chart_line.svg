@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="signal-master" data-pptx-master-name="Signal Green" data-pptx-layout="chart_linear" data-pptx-layout-name="Chart (Linear)">
+  <!-- Signal Green — 09 Line chart — sample data; regenerated with real data at deck generation -->
+  <rect id="master-bg" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="80 110 690 56">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="80" y="154" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-weight="700" font-size="40" letter-spacing="-1.1" fill="#000000">{{TITLE}}</text>
+  </g>
+
+  <g id="chart-legend">
+    <line x1="880" y1="144" x2="904" y2="144" stroke="#76B900" stroke-width="2.5"/>
+    <text x="914" y="150" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#767676">{{LEGEND_SERIES_A}}</text>
+    <line x1="1040" y1="144" x2="1064" y2="144" stroke="#767676" stroke-width="2" stroke-dasharray="4 4"/>
+    <text x="1074" y="150" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#767676">{{LEGEND_SERIES_B}}</text>
+  </g>
+
+  <!-- chart-plot-area: 168,250,1200,540 -->
+  <g id="chart-body">
+    <g id="chart-grid" stroke="#CCCCCC" stroke-width="1">
+      <line x1="168" y1="250" x2="1200" y2="250"/>
+      <line x1="168" y1="322" x2="1200" y2="322"/>
+      <line x1="168" y1="395" x2="1200" y2="395"/>
+      <line x1="168" y1="467" x2="1200" y2="467"/>
+      <line x1="168" y1="540" x2="1200" y2="540"/>
+    </g>
+
+    <g id="chart-y-axis" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#767676">
+      <text x="154" y="256">100</text>
+      <text x="154" y="328">75</text>
+      <text x="154" y="401">50</text>
+      <text x="154" y="473">25</text>
+      <text x="154" y="546">0</text>
+    </g>
+
+    <g id="chart-series-b">
+      <path d="M 226 500 L 409 490 L 592 470 L 775 455 L 958 440 L 1141 430" fill="none" stroke="#767676" stroke-width="2" stroke-dasharray="5 5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <g id="chart-series-a">
+      <path d="M 226 470 L 409 440 L 592 400 L 775 350 L 958 320 L 1141 290" fill="none" stroke="#76B900" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="226" cy="470" r="4" fill="#FFFFFF" stroke="#76B900" stroke-width="2.5"/>
+      <circle cx="409" cy="440" r="4" fill="#FFFFFF" stroke="#76B900" stroke-width="2.5"/>
+      <circle cx="592" cy="400" r="4" fill="#FFFFFF" stroke="#76B900" stroke-width="2.5"/>
+      <circle cx="775" cy="350" r="4" fill="#FFFFFF" stroke="#76B900" stroke-width="2.5"/>
+      <circle cx="958" cy="320" r="4" fill="#FFFFFF" stroke="#76B900" stroke-width="2.5"/>
+      <circle cx="1141" cy="290" r="5" fill="#76B900"/>
+    </g>
+
+    <g id="chart-x-axis" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#767676">
+      <text x="226" y="572">01</text>
+      <text x="409" y="572">02</text>
+      <text x="592" y="572">03</text>
+      <text x="775" y="572">04</text>
+      <text x="958" y="572">05</text>
+      <text x="1141" y="572">06</text>
+    </g>
+  </g>
+
+  <g id="page-foot">
+    <text x="80" y="674" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#767676">{{BRAND_MARK}}</text>
+    <text x="1200" y="674" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#767676">{{PAGE_LABEL}}</text>
+  </g>
+</svg>

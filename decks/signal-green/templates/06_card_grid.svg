@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="signal-master" data-pptx-master-name="Signal Green" data-pptx-layout="06_card_grid" data-pptx-layout-name="Card Grid (4-up)">
+  <!-- Signal Green — 06 Card grid (4-up, green corner square ornament) -->
+  <rect id="master-bg" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+  <line id="layout-grid-header-rule" x1="80" y1="234" x2="1200" y2="234" stroke="#CCCCCC" stroke-width="1" data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="80 110 1120 56">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="80" y="154" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-weight="700" font-size="40" letter-spacing="-1.1" fill="#000000">{{TITLE}}</text>
+  </g>
+
+  <g id="grid-lead">
+    <text x="80" y="200" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="22" letter-spacing="-0.2" fill="#333333">{{LEAD}}</text>
+  </g>
+
+  <g id="card-1">
+    <rect x="80" y="276" width="260" height="288" rx="2" fill="#F7F7F7" stroke="#CCCCCC" stroke-width="1"/>
+    <rect x="104" y="300" width="12" height="12" fill="#76B900"/>
+    <text x="104" y="368" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="22" letter-spacing="-0.2" fill="#000000">{{CARD_1_TITLE}}</text>
+    <text x="104" y="410" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#333333">{{CARD_1_BODY}}</text>
+  </g>
+
+  <g id="card-2">
+    <rect x="364" y="276" width="260" height="288" rx="2" fill="#F7F7F7" stroke="#CCCCCC" stroke-width="1"/>
+    <rect x="388" y="300" width="12" height="12" fill="#CCCCCC"/>
+    <text x="388" y="368" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="22" letter-spacing="-0.2" fill="#000000">{{CARD_2_TITLE}}</text>
+    <text x="388" y="410" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#333333">{{CARD_2_BODY}}</text>
+  </g>
+
+  <g id="card-3">
+    <rect x="648" y="276" width="260" height="288" rx="2" fill="#F7F7F7" stroke="#CCCCCC" stroke-width="1"/>
+    <rect x="672" y="300" width="12" height="12" fill="#CCCCCC"/>
+    <text x="672" y="368" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="22" letter-spacing="-0.2" fill="#000000">{{CARD_3_TITLE}}</text>
+    <text x="672" y="410" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#333333">{{CARD_3_BODY}}</text>
+  </g>
+
+  <g id="card-4">
+    <rect x="932" y="276" width="260" height="288" rx="2" fill="#F7F7F7" stroke="#CCCCCC" stroke-width="1"/>
+    <rect x="956" y="300" width="12" height="12" fill="#CCCCCC"/>
+    <text x="956" y="368" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="22" letter-spacing="-0.2" fill="#000000">{{CARD_4_TITLE}}</text>
+    <text x="956" y="410" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#333333">{{CARD_4_BODY}}</text>
+  </g>
+
+  <g id="page-foot">
+    <text x="80" y="674" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#767676">{{BRAND_MARK}}</text>
+    <text x="1200" y="674" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#767676">{{PAGE_LABEL}}</text>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="warmdoc-master" data-pptx-master-name="Warm Document" data-pptx-layout="01_cover" data-pptx-layout-name="Cover (Navy)">
+  <!-- Warm Document — 01 Cover: navy hero band -->
+  <rect id="master-bg" width="1280" height="720" fill="#ffffff" data-pptx-layer="master" data-pptx-editable="false"/>
+  <rect id="layout-bg-navy" width="1280" height="720" fill="#0a1530" data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <g id="cover-kicker">
+    <text x="88" y="326" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" letter-spacing="1" fill="#e6e0f5">{{KICKER}}</text>
+  </g>
+
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="88 350 1104 94">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="88" y="418" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="72" letter-spacing="-2.2" fill="#ffffff">{{TITLE}}</text>
+  </g>
+
+  <g id="subtitle-slot" data-pptx-placeholder="subtitle" data-pptx-placeholder-idx="2" data-pptx-placeholder-bounds="88 462 820 40">
+    <text id="subtitle-carrier" data-pptx-placeholder-carrier="true" x="88" y="492" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" letter-spacing="-0.3" fill="#e6e0f5">{{SUBTITLE}}</text>
+  </g>
+
+  <g id="cover-dots">
+    <circle cx="88" cy="548" r="7" fill="#ffe8d4"/>
+    <circle cx="112" cy="548" r="7" fill="#fde0ec"/>
+    <circle cx="136" cy="548" r="7" fill="#d9f3e1"/>
+    <circle cx="160" cy="548" r="7" fill="#e6e0f5"/>
+    <circle cx="184" cy="548" r="7" fill="#dcecfa"/>
+  </g>
+
+  <g id="page-foot">
+    <text x="88" y="672" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#787671">{{BRAND_MARK}}</text>
+    <text x="1192" y="672" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#787671">{{PAGE_LABEL}}</text>
+  </g>
+</svg>

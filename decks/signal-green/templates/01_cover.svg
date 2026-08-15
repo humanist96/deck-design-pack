@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="signal-master" data-pptx-master-name="Signal Green" data-pptx-layout="01_cover" data-pptx-layout-name="Cover (Black)">
+  <!-- Signal Green — 01 Cover: black hero, bold headline, one green rule -->
+  <rect id="master-bg" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+  <rect id="layout-bg-black" width="1280" height="720" fill="#000000" data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <g id="cover-signal">
+    <rect x="80" y="308" width="72" height="4" fill="#76B900"/>
+    <text x="80" y="352" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" letter-spacing="1.5" fill="#767676">{{KICKER}}</text>
+  </g>
+
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="80 372 1120 94">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="80" y="440" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-weight="700" font-size="72" letter-spacing="-2.2" fill="#FFFFFF">{{TITLE}}</text>
+  </g>
+
+  <g id="subtitle-slot" data-pptx-placeholder="subtitle" data-pptx-placeholder-idx="2" data-pptx-placeholder-bounds="80 484 820 40">
+    <text id="subtitle-carrier" data-pptx-placeholder-carrier="true" x="80" y="514" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" letter-spacing="-0.3" fill="#CCCCCC">{{SUBTITLE}}</text>
+  </g>
+
+  <g id="page-foot">
+    <text x="80" y="674" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#767676">{{BRAND_MARK}}</text>
+    <text x="1200" y="674" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#767676">{{PAGE_LABEL}}</text>
+  </g>
+</svg>

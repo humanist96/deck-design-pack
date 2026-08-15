@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="signal-master" data-pptx-master-name="Signal Green" data-pptx-layout="05_two_column" data-pptx-layout-name="Two Column">
+  <!-- Signal Green — 05 Two column -->
+  <rect id="master-bg" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+  <line id="layout-column-divider" x1="628" y1="110" x2="628" y2="578" stroke="#CCCCCC" stroke-width="1" data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="80 110 1120 56">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="80" y="154" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-weight="700" font-size="40" letter-spacing="-1.1" fill="#000000">{{TITLE}}</text>
+  </g>
+
+  <g id="column-lead">
+    <text x="80" y="200" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="22" letter-spacing="-0.2" fill="#333333">{{LEAD}}</text>
+  </g>
+
+  <g id="column-body">
+    <text x="80" y="284" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#333333">{{BODY}}</text>
+  </g>
+
+  <g id="column-points">
+    <line x1="80" y1="334" x2="564" y2="334" stroke="#CCCCCC" stroke-width="1"/>
+    <rect x="80" y="368" width="12" height="12" fill="#76B900"/>
+    <text x="108" y="380" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#000000">{{POINT_1}}</text>
+    <line x1="80" y1="412" x2="564" y2="412" stroke="#CCCCCC" stroke-width="1"/>
+    <rect x="80" y="446" width="12" height="12" fill="#CCCCCC"/>
+    <text x="108" y="458" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#333333">{{POINT_2}}</text>
+    <line x1="80" y1="490" x2="564" y2="490" stroke="#CCCCCC" stroke-width="1"/>
+    <rect x="80" y="524" width="12" height="12" fill="#CCCCCC"/>
+    <text x="108" y="536" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#333333">{{POINT_3}}</text>
+    <line x1="80" y1="568" x2="564" y2="568" stroke="#CCCCCC" stroke-width="1"/>
+  </g>
+
+  <g id="side-stack">
+    <rect x="692" y="194" width="508" height="114" rx="2" fill="#F7F7F7" stroke="#CCCCCC" stroke-width="1"/>
+    <rect x="716" y="218" width="12" height="12" fill="#76B900"/>
+    <rect x="716" y="252" width="188" height="10" rx="2" fill="#000000"/>
+    <rect x="716" y="278" width="292" height="8" rx="2" fill="#CCCCCC"/>
+    <rect x="692" y="330" width="508" height="114" rx="2" fill="#F7F7F7" stroke="#CCCCCC" stroke-width="1"/>
+    <rect x="716" y="354" width="12" height="12" fill="#CCCCCC"/>
+    <rect x="716" y="388" width="156" height="10" rx="2" fill="#333333"/>
+    <rect x="716" y="414" width="248" height="8" rx="2" fill="#CCCCCC"/>
+    <rect x="692" y="466" width="508" height="114" rx="2" fill="#F7F7F7" stroke="#CCCCCC" stroke-width="1"/>
+    <rect x="716" y="490" width="12" height="12" fill="#CCCCCC"/>
+    <rect x="716" y="524" width="128" height="10" rx="2" fill="#333333"/>
+    <rect x="716" y="550" width="208" height="8" rx="2" fill="#CCCCCC"/>
+  </g>
+
+  <g id="page-foot">
+    <text x="80" y="674" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#767676">{{BRAND_MARK}}</text>
+    <text x="1200" y="674" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#767676">{{PAGE_LABEL}}</text>
+  </g>
+</svg>

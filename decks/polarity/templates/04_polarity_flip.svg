@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="polarity-master" data-pptx-master-name="Polarity Mono" data-pptx-layout="04_polarity_flip" data-pptx-layout-name="Polarity Flip">
+  <!-- Polarity Mono — 04 Signature: inverted canvas + abstract terminal frame -->
+
+  <rect id="master-bg" width="1280" height="720" fill="#fafafa" data-pptx-layer="master" data-pptx-editable="false"/>
+  <rect id="layout-bg-dark" width="1280" height="720" fill="#171717" data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <g id="flip-kicker">
+    <text x="72" y="146" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="15" letter-spacing="1.5" fill="#888888">{{KICKER}}</text>
+  </g>
+
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="72 164 540 72">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="72" y="220" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="52" letter-spacing="-1.7" fill="#ffffff">{{TITLE}}</text>
+  </g>
+
+  <g id="flip-lead">
+    <text x="72" y="272" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="22" letter-spacing="-0.3" fill="#888888">{{LEAD}}</text>
+  </g>
+
+  <g id="flip-caption">
+    <line x1="72" y1="336" x2="72" y2="428" stroke="#ffffff" stroke-width="2"/>
+    <text x="94" y="366" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="22" letter-spacing="-0.3" fill="#ffffff">{{TERMINAL_LABEL}}</text>
+    <text x="94" y="402" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#888888">{{TERMINAL_CAPTION}}</text>
+  </g>
+
+  <g id="terminal-frame">
+    <rect x="656" y="140" width="552" height="400" rx="12" fill="#1f1f1f" stroke="#333333" stroke-width="1"/>
+    <line x1="656" y1="184" x2="1208" y2="184" stroke="#333333" stroke-width="1"/>
+    <circle cx="684" cy="162" r="4" fill="#333333"/>
+    <circle cx="702" cy="162" r="4" fill="#333333"/>
+    <circle cx="720" cy="162" r="4" fill="#333333"/>
+    <rect x="756" y="157" width="120" height="10" rx="5" fill="#333333"/>
+    <rect x="688" y="220" width="16" height="8" rx="4" fill="#888888"/>
+    <rect x="716" y="220" width="196" height="8" rx="4" fill="#ffffff"/>
+    <rect x="688" y="252" width="16" height="8" rx="4" fill="#333333"/>
+    <rect x="716" y="252" width="288" height="8" rx="4" fill="#888888"/>
+    <rect x="688" y="284" width="16" height="8" rx="4" fill="#333333"/>
+    <rect x="716" y="284" width="232" height="8" rx="4" fill="#888888"/>
+    <rect x="688" y="328" width="16" height="8" rx="4" fill="#888888"/>
+    <rect x="716" y="328" width="164" height="8" rx="4" fill="#ffffff"/>
+    <rect x="688" y="360" width="16" height="8" rx="4" fill="#333333"/>
+    <rect x="716" y="360" width="320" height="8" rx="4" fill="#888888"/>
+    <rect x="688" y="392" width="16" height="8" rx="4" fill="#333333"/>
+    <rect x="716" y="392" width="256" height="8" rx="4" fill="#888888"/>
+    <rect x="688" y="436" width="16" height="8" rx="4" fill="#888888"/>
+    <rect x="716" y="436" width="140" height="8" rx="4" fill="#ffffff"/>
+    <rect x="688" y="468" width="16" height="8" rx="4" fill="#333333"/>
+    <rect x="716" y="468" width="204" height="8" rx="4" fill="#888888"/>
+    <rect x="688" y="500" width="10" height="10" rx="2" fill="#ffffff"/>
+  </g>
+
+  <g id="page-foot">
+    <text x="72" y="676" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#888888">{{BRAND_MARK}}</text>
+    <text x="1208" y="676" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#888888">{{PAGE_LABEL}}</text>
+  </g>
+</svg>

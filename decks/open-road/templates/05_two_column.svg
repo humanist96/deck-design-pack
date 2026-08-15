@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="openroad-master" data-pptx-master-name="Open Road" data-pptx-layout="05_two_column" data-pptx-layout-name="Two Column">
+  <!-- Open Road — 05 Two column (text left / image block right) -->
+  <defs>
+    <pattern id="photo-hatch" patternUnits="userSpaceOnUse" width="20" height="20" patternTransform="rotate(45)" data-pptx-pattern="ltUpDiag">
+      <rect width="20" height="20" fill="#F4F4F4"/>
+      <rect width="10" height="20" fill="#EEEEEE"/>
+    </pattern>
+  </defs>
+
+  <rect id="master-bg" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+  <line id="layout-column-divider" x1="632" y1="112" x2="632" y2="580" stroke="#EEEEEE" stroke-width="1" data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="96 112 1088 56">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="96" y="156" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="40" letter-spacing="-1" fill="#171A20">{{TITLE}}</text>
+  </g>
+
+  <g id="column-lead">
+    <text x="96" y="202" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="22" letter-spacing="-0.2" fill="#5C5E62">{{LEAD}}</text>
+  </g>
+
+  <g id="column-body">
+    <text x="96" y="288" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#393C41">{{BODY}}</text>
+  </g>
+
+  <g id="column-points">
+    <line x1="96" y1="340" x2="568" y2="340" stroke="#EEEEEE" stroke-width="1"/>
+    <rect x="96" y="378" width="6" height="6" fill="#3E6AE1"/>
+    <text x="120" y="386" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#171A20">{{POINT_1}}</text>
+    <line x1="96" y1="418" x2="568" y2="418" stroke="#EEEEEE" stroke-width="1"/>
+    <rect x="96" y="456" width="6" height="6" fill="#8E8E8E"/>
+    <text x="120" y="464" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#393C41">{{POINT_2}}</text>
+    <line x1="96" y1="496" x2="568" y2="496" stroke="#EEEEEE" stroke-width="1"/>
+    <rect x="96" y="534" width="6" height="6" fill="#8E8E8E"/>
+    <text x="120" y="542" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#393C41">{{POINT_3}}</text>
+    <line x1="96" y1="574" x2="568" y2="574" stroke="#EEEEEE" stroke-width="1"/>
+  </g>
+
+  <g id="side-photo">
+    <rect x="696" y="196" width="488" height="336" rx="12" fill="url(#photo-hatch)"/>
+    <text x="940" y="370" text-anchor="middle" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#8E8E8E">product photograph — replace this plate with an image</text>
+    <text x="696" y="568" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#5C5E62">{{CAPTION}}</text>
+  </g>
+
+  <g id="page-foot">
+    <text x="96" y="672" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#5C5E62">{{BRAND_MARK}}</text>
+    <text x="1184" y="672" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#5C5E62">{{PAGE_LABEL}}</text>
+  </g>
+</svg>

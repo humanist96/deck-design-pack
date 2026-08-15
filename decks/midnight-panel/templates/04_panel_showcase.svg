@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="midnight-master" data-pptx-master-name="Midnight Panel" data-pptx-layout="04_panel_showcase" data-pptx-layout-name="Panel Showcase">
+  <!-- Midnight Panel — 04 Signature: product panel showcase (abstract UI chrome, not a screenshot) -->
+
+  <rect id="master-bg" width="1280" height="720" fill="#010102" data-pptx-layer="master" data-pptx-editable="false"/>
+
+  <g id="panel-kicker">
+    <text x="72" y="140" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="15" letter-spacing="1.5" fill="#5e6ad2">{{KICKER}}</text>
+  </g>
+
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="72 158 560 76">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="72" y="216" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="56" letter-spacing="-1.8" fill="#f7f8f8">{{TITLE}}</text>
+  </g>
+
+  <g id="panel-lead">
+    <text x="72" y="268" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" letter-spacing="-0.4" fill="#8a8f98">{{LEAD}}</text>
+  </g>
+
+  <g id="panel-caption">
+    <line x1="72" y1="330" x2="72" y2="418" stroke="#5e6ad2" stroke-width="2"/>
+    <text x="92" y="358" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="22" letter-spacing="-0.3" fill="#f7f8f8">{{PANEL_LABEL}}</text>
+    <text x="92" y="392" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" letter-spacing="-0.1" fill="#8a8f98">{{PANEL_CAPTION}}</text>
+  </g>
+
+  <g id="product-panel">
+    <rect x="616" y="140" width="592" height="404" rx="16" fill="#0f1011" stroke="#23252a" stroke-width="1"/>
+    <line x1="616" y1="184" x2="1208" y2="184" stroke="#23252a" stroke-width="1"/>
+    <circle cx="644" cy="162" r="4" fill="#3e3e44"/>
+    <circle cx="662" cy="162" r="4" fill="#3e3e44"/>
+    <circle cx="680" cy="162" r="4" fill="#3e3e44"/>
+    <rect x="616" y="184" width="152" height="360" fill="#141516"/>
+    <line x1="768" y1="184" x2="768" y2="544" stroke="#23252a" stroke-width="1"/>
+    <rect x="640" y="212" width="72" height="8" rx="4" fill="#5e6ad2"/>
+    <rect x="640" y="244" width="104" height="8" rx="4" fill="#3e3e44"/>
+    <rect x="640" y="276" width="88" height="8" rx="4" fill="#3e3e44"/>
+    <rect x="640" y="308" width="96" height="8" rx="4" fill="#34343a"/>
+    <rect x="640" y="340" width="76" height="8" rx="4" fill="#34343a"/>
+    <rect x="796" y="216" width="196" height="10" rx="5" fill="#d0d6e0"/>
+    <rect x="796" y="252" width="384" height="64" rx="8" fill="#141516" stroke="#23252a" stroke-width="1"/>
+    <rect x="820" y="276" width="140" height="8" rx="4" fill="#3e3e44"/>
+    <rect x="1116" y="276" width="40" height="8" rx="4" fill="#5e6ad2"/>
+    <rect x="796" y="332" width="384" height="64" rx="8" fill="#141516" stroke="#23252a" stroke-width="1"/>
+    <rect x="820" y="356" width="180" height="8" rx="4" fill="#3e3e44"/>
+    <rect x="1128" y="356" width="28" height="8" rx="4" fill="#3e3e44"/>
+    <rect x="796" y="412" width="384" height="64" rx="8" fill="#141516" stroke="#23252a" stroke-width="1"/>
+    <rect x="820" y="436" width="112" height="8" rx="4" fill="#3e3e44"/>
+    <rect x="1140" y="436" width="16" height="8" rx="4" fill="#3e3e44"/>
+  </g>
+
+  <g id="page-foot">
+    <text x="72" y="676" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#62666d">{{BRAND_MARK}}</text>
+    <text x="1208" y="676" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#62666d">{{PAGE_LABEL}}</text>
+  </g>
+</svg>

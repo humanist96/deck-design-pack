@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="openroad-master" data-pptx-master-name="Open Road" data-pptx-layout="02_agenda" data-pptx-layout-name="Agenda">
+  <!-- Open Road — 02 Agenda -->
+  <rect id="master-bg" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+  <line id="layout-list-top-rule" x1="96" y1="230" x2="1184" y2="230" stroke="#171A20" stroke-width="2" data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="96 112 1088 56">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="96" y="156" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="40" letter-spacing="-1" fill="#171A20">{{TITLE}}</text>
+  </g>
+
+  <g id="agenda-item-1">
+    <text x="96" y="278" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#3E6AE1">{{ITEM_1_NO}}</text>
+    <text x="200" y="278" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="22" letter-spacing="-0.2" fill="#171A20">{{ITEM_1_TITLE}}</text>
+    <text x="1184" y="278" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#5C5E62">{{ITEM_1_TAG}}</text>
+    <line x1="96" y1="312" x2="1184" y2="312" stroke="#EEEEEE" stroke-width="1"/>
+  </g>
+
+  <g id="agenda-item-2">
+    <text x="96" y="360" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#5C5E62">{{ITEM_2_NO}}</text>
+    <text x="200" y="360" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="22" letter-spacing="-0.2" fill="#171A20">{{ITEM_2_TITLE}}</text>
+    <text x="1184" y="360" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#5C5E62">{{ITEM_2_TAG}}</text>
+    <line x1="96" y1="394" x2="1184" y2="394" stroke="#EEEEEE" stroke-width="1"/>
+  </g>
+
+  <g id="agenda-item-3">
+    <text x="96" y="442" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#5C5E62">{{ITEM_3_NO}}</text>
+    <text x="200" y="442" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="22" letter-spacing="-0.2" fill="#171A20">{{ITEM_3_TITLE}}</text>
+    <text x="1184" y="442" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#5C5E62">{{ITEM_3_TAG}}</text>
+    <line x1="96" y1="476" x2="1184" y2="476" stroke="#EEEEEE" stroke-width="1"/>
+  </g>
+
+  <g id="agenda-item-4">
+    <text x="96" y="524" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#5C5E62">{{ITEM_4_NO}}</text>
+    <text x="200" y="524" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="22" letter-spacing="-0.2" fill="#171A20">{{ITEM_4_TITLE}}</text>
+    <text x="1184" y="524" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#5C5E62">{{ITEM_4_TAG}}</text>
+    <line x1="96" y1="558" x2="1184" y2="558" stroke="#EEEEEE" stroke-width="1"/>
+  </g>
+
+  <g id="agenda-item-5">
+    <text x="96" y="606" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#5C5E62">{{ITEM_5_NO}}</text>
+    <text x="200" y="606" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="22" letter-spacing="-0.2" fill="#171A20">{{ITEM_5_TITLE}}</text>
+    <text x="1184" y="606" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#5C5E62">{{ITEM_5_TAG}}</text>
+    <line x1="96" y1="640" x2="1184" y2="640" stroke="#EEEEEE" stroke-width="1"/>
+  </g>
+
+  <g id="page-foot">
+    <text x="96" y="672" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#5C5E62">{{BRAND_MARK}}</text>
+    <text x="1184" y="672" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#5C5E62">{{PAGE_LABEL}}</text>
+  </g>
+</svg>

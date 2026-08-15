@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="midnight-master" data-pptx-master-name="Midnight Panel" data-pptx-layout="10_closing" data-pptx-layout-name="Closing">
+  <!-- Midnight Panel — 10 Closing -->
+
+  <rect id="master-bg" width="1280" height="720" fill="#010102" data-pptx-layer="master" data-pptx-editable="false"/>
+
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="72 292 1136 92">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="72" y="360" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="72" letter-spacing="-2.6" fill="#f7f8f8">{{BRAND_MARK}}</text>
+  </g>
+
+  <g id="closing-rule">
+    <line x1="72" y1="404" x2="312" y2="404" stroke="#5e6ad2" stroke-width="2"/>
+  </g>
+
+  <g id="closing-copy">
+    <text x="72" y="452" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="24" letter-spacing="-0.4" fill="#d0d6e0">{{CLOSING_LINE}}</text>
+    <text x="72" y="496" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="18" letter-spacing="-0.1" fill="#8a8f98">{{CONTACT_LINE}}</text>
+  </g>
+
+  <g id="page-foot">
+    <text x="72" y="676" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#62666d">{{BRAND_MARK}}</text>
+    <text x="1208" y="676" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#62666d">{{PAGE_LABEL}}</text>
+  </g>
+</svg>

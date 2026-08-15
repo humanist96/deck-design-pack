@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="gmesh-master" data-pptx-master-name="Gradient Mesh Fintech" data-pptx-layout="07_metrics" data-pptx-layout-name="Metrics">
+  <!-- Gradient Mesh Fintech — 07 Metrics band (3-up, navy emphasis) -->
+  <rect id="master-bg" width="1280" height="720" fill="#ffffff" data-pptx-layer="master" data-pptx-editable="false"/>
+
+  <g id="metrics-kicker">
+    <text x="80" y="144" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="15" letter-spacing="1.6" fill="#533afd">{{KICKER}}</text>
+  </g>
+
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="80 164 1120 56">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="80" y="208" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="40" letter-spacing="-1.1" fill="#0d253d">{{TITLE}}</text>
+  </g>
+
+  <g id="metrics-lead">
+    <text x="80" y="256" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="22" letter-spacing="-0.2" fill="#64748d">{{LEAD}}</text>
+  </g>
+
+  <g id="metric-1">
+    <rect x="80" y="316" width="352" height="248" rx="12" fill="#f6f9fc" stroke="#e3e8ee" stroke-width="1"/>
+    <text x="400" y="424" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="54" letter-spacing="-1.4" fill="#0d253d">{{METRIC_1_VALUE}}</text>
+    <text x="112" y="470" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#273951">{{METRIC_1_LABEL}}</text>
+    <text x="112" y="508" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#1e8e5a">{{METRIC_1_DELTA}}</text>
+  </g>
+
+  <g id="metric-2">
+    <rect x="464" y="316" width="352" height="248" rx="12" fill="#f6f9fc" stroke="#e3e8ee" stroke-width="1"/>
+    <text x="784" y="424" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="54" letter-spacing="-1.4" fill="#0d253d">{{METRIC_2_VALUE}}</text>
+    <text x="496" y="470" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#273951">{{METRIC_2_LABEL}}</text>
+    <text x="496" y="508" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#64748d">{{METRIC_2_DELTA}}</text>
+  </g>
+
+  <g id="metric-3">
+    <rect x="848" y="316" width="352" height="248" rx="12" fill="#1c1e54"/>
+    <text x="1168" y="424" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="54" letter-spacing="-1.4" fill="#ffffff">{{METRIC_3_VALUE}}</text>
+    <text x="880" y="470" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#ffffff">{{METRIC_3_LABEL}}</text>
+    <text x="880" y="508" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#b9b9f9">{{METRIC_3_DELTA}}</text>
+  </g>
+
+  <g id="page-foot">
+    <text x="80" y="674" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#64748d">{{BRAND_MARK}}</text>
+    <text x="1200" y="674" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#64748d">{{PAGE_LABEL}}</text>
+  </g>
+</svg>

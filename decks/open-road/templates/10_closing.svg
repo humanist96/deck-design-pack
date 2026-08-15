@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="openroad-master" data-pptx-master-name="Open Road" data-pptx-layout="10_closing" data-pptx-layout-name="Closing (Carbon)">
+  <!-- Open Road — 10 Closing -->
+  <rect id="master-bg" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+  <rect id="layout-bg-carbon" width="1280" height="720" fill="#171A20" data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="96 288 1088 76">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="96" y="344" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="56" letter-spacing="-1.5" fill="#FFFFFF">{{BRAND_MARK}}</text>
+  </g>
+
+  <g id="closing-copy">
+    <rect x="96" y="388" width="72" height="3" fill="#3E6AE1"/>
+    <text x="96" y="442" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="22" letter-spacing="-0.2" fill="#FFFFFF">{{CLOSING_LINE}}</text>
+    <text x="96" y="486" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="20" letter-spacing="-0.1" fill="#8E8E8E">{{CONTACT_LINE}}</text>
+  </g>
+
+  <g id="page-foot">
+    <text x="96" y="672" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#8E8E8E">{{BRAND_MARK}}</text>
+    <text x="1184" y="672" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#8E8E8E">{{PAGE_LABEL}}</text>
+  </g>
+</svg>

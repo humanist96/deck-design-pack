@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="gmesh-master" data-pptx-master-name="Gradient Mesh Fintech" data-pptx-layout="03_section" data-pptx-layout-name="Section (Navy)">
+  <!-- Gradient Mesh Fintech — 03 Section: navy counterpanel -->
+  <rect id="master-bg" width="1280" height="720" fill="#ffffff" data-pptx-layer="master" data-pptx-editable="false"/>
+  <rect id="layout-bg-navy" width="1280" height="720" fill="#1c1e54" data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <g id="section-kicker">
+    <text x="80" y="332" font-family="'Pretendard SemiBold', Pretendard, 'Malgun Gothic', sans-serif" font-size="15" letter-spacing="1.6" fill="#b9b9f9">{{KICKER}}</text>
+  </g>
+
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="80 358 1120 80">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="80" y="418" font-family="'Pretendard Light', Pretendard, 'Malgun Gothic', sans-serif" font-size="60" letter-spacing="-1.8" fill="#ffffff">{{TITLE}}</text>
+  </g>
+
+  <g id="section-rule">
+    <rect x="80" y="464" width="96" height="4" rx="2" fill="#533afd"/>
+  </g>
+
+  <g id="page-foot">
+    <text x="80" y="674" font-family="'Pretendard Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#b9b9f9">{{BRAND_MARK}}</text>
+    <text x="1200" y="674" text-anchor="end" font-family="Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#b9b9f9">{{PAGE_LABEL}}</text>
+  </g>
+</svg>
