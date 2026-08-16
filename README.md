@@ -6,7 +6,8 @@ Each template ships **10 hand-authored SVG page prototypes** plus a full design 
 
 ```
 6 templates · 60 SVG prototypes · 6 identity-only brand presets
-0 errors / 0 warnings on the structural checker · package read-back verified
+0 errors / 0 warnings on the structural checker
+all six verified end to end: generated deck → export → verify_deck PASS
 ```
 
 ---
