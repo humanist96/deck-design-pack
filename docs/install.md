@@ -5,6 +5,7 @@
 - A ppt-master-compatible workspace (a directory containing `.claude/skills/ppt-master/templates/`)
 - Python 3.10+ (standard library only; PyYAML is used if present but not required)
 - **Pretendard** installed on any machine that opens the exported decks — PPTX does not embed fonts
+- **KoPub돋움체** (Bold/Medium) for decks exported from `koscom-chevron` — the TTFs ship in `decks/koscom-chevron/fonts/`
 
 ## Install
 
@@ -23,14 +24,14 @@ Expected output:
   wrote .../templates/decks/decks_index.json
   wrote .../templates/brands/brands_index.json
 
-installed 12 template workspace(s).
+installed 14 template workspace(s).
 ```
 
 ## Options
 
 | Flag | Effect |
 |---|---|
-| `--only <id> [<id>…]` | Install a subset instead of all six |
+| `--only <id> [<id>…]` | Install a subset instead of all seven |
 | `--force` | Replace template ids that already exist (removes the old directory first) |
 | `--dry-run` | Print the plan and index writes, change nothing |
 

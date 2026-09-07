@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="koscom-master" data-pptx-master-name="Koscom Chevron" data-pptx-layout="10_closing" data-pptx-layout-name="Closing">
+  <!-- Koscom Chevron — 10 Closing: navy + brand mark + single chevron -->
+  <rect id="master-bg" width="1280" height="720" fill="#ffffff" data-pptx-layer="master" data-pptx-editable="false"/>
+  <rect id="layout-bg-navy" x="0" y="0" width="1280" height="720" fill="#00338d" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <polygon id="layout-chevron-back" points="1120,-20 1360,-20 1685,360 1360,740 1120,740 1415,360" fill="#1f4b9b" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <polygon id="layout-chevron-orange" points="1000,100 1164,100 1387,360 1164,620 1000,620 1202,360" fill="#f26522" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="80 280 760 80">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="80" y="344" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="60" letter-spacing="-0.5" fill="#ffffff">{{BRAND_MARK}}</text>
+  </g>
+  <g id="closing-copy">
+    <rect x="80" y="376" width="60" height="4" fill="#ee6d1d"/>
+    <text x="80" y="434" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="24" fill="#ffffff">{{CLOSING_LINE}}</text>
+    <text x="80" y="474" font-family="'KoPub돋움체 Medium', 'KoPubDotum Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#edf4fb">{{CONTACT_LINE}}</text>
+  </g>
+  <g id="page-foot">
+    <text x="80" y="674" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#edf4fb">{{BRAND_MARK}}</text>
+    <text x="1200" y="674" text-anchor="end" font-family="'KoPub돋움체 Medium', 'KoPubDotum Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#edf4fb">{{PAGE_LABEL}}</text>
+  </g>
+</svg>

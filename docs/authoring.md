@@ -4,7 +4,7 @@ How these templates are built, and what to preserve if you fork or extend one.
 
 ## The 10-page spine
 
-All six templates share one roster so the pack reads as a single system:
+All seven templates share one roster so the pack reads as a single system:
 
 | # | File | Type | Rhythm |
 |---|---|---|---|
@@ -29,6 +29,7 @@ Page 04 is the only slot that differs by template:
 | `warm-doc` | `04_tinted_cards` — five pastel tint cards |
 | `open-road` | `04_fullbleed_hero` — one photograph, one sentence |
 | `signal-green` | `04_black_hero` — black field with green corner squares |
+| `koscom-chevron` | `04_wave_statement` — black field with fourteen orange wave paths behind a bold statement |
 
 ## Structural contract
 
@@ -77,7 +78,7 @@ Two conventions recur across the pack:
 
 ## Typography
 
-Locked to **Pretendard**; hierarchy is weight span + letter-spacing + size, never a family switch.
+Locked to **Pretendard** (the six originals) or **KoPub돋움체** (`koscom-chevron`, matching its source material); within a template, hierarchy is weight span + letter-spacing + size, never a family switch.
 
 Each spec declares a **native body baseline** that overrides the generic `delivery_purpose` default (20 / 24 / 32). This is deliberate: a template's identity lives in the *ratio* between display and body, and inflating body alone collapses that contrast. Each spec states its baseline, the ratio it protects, and what to raise alongside it if the deck is projected.
 

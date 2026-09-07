@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="koscom-master" data-pptx-master-name="Koscom Chevron" data-pptx-layout="chart_linear" data-pptx-layout-name="Chart (Linear)">
+  <!-- Koscom Chevron — 09 Line chart — sample data; regenerated with real data at deck generation -->
+  <rect id="master-bg" width="1280" height="720" fill="#ffffff" data-pptx-layer="master" data-pptx-editable="false"/>
+  <line id="layout-axis-rule" x1="168" y1="540" x2="1200" y2="540" stroke="#2b2b2e" stroke-width="1" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <g id="page-kicker">
+    <text x="80" y="96" font-family="'KoPub돋움체 Medium', 'KoPubDotum Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#ee6d1d">{{KICKER}}</text>
+  </g>
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="80 110 690 44">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="80" y="144" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="30" fill="#ee6d1d">{{TITLE}}</text>
+  </g>
+  <g id="page-lead">
+    <text x="80" y="190" font-family="'KoPub돋움체 Medium', 'KoPubDotum Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#2b2b2e">{{LEAD}}</text>
+  </g>
+  <g id="chart-legend">
+    <line x1="880" y1="142" x2="904" y2="142" stroke="#ee6d1d" stroke-width="2.5"/>
+    <text x="914" y="147" font-family="'KoPub돋움체 Medium', 'KoPubDotum Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#8c8c92">{{LEGEND_SERIES_A}}</text>
+    <line x1="1040" y1="142" x2="1064" y2="142" stroke="#8c8c92" stroke-width="2" stroke-dasharray="4 4"/>
+    <text x="1074" y="147" font-family="'KoPub돋움체 Medium', 'KoPubDotum Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#8c8c92">{{LEGEND_SERIES_B}}</text>
+  </g>
+  <!-- chart-plot-area: 168,250,1200,540 -->
+  <g id="chart-body">
+    <g id="chart-grid" stroke="#dcdce0" stroke-width="1">
+      <line x1="168" y1="250" x2="1200" y2="250"/>
+      <line x1="168" y1="322" x2="1200" y2="322"/>
+      <line x1="168" y1="395" x2="1200" y2="395"/>
+      <line x1="168" y1="467" x2="1200" y2="467"/>
+    </g>
+    <g id="chart-y-axis" text-anchor="end" font-family="'KoPub돋움체 Medium', 'KoPubDotum Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#8c8c92">
+      <text x="154" y="255">100</text>
+      <text x="154" y="327">75</text>
+      <text x="154" y="400">50</text>
+      <text x="154" y="472">25</text>
+      <text x="154" y="545">0</text>
+    </g>
+    <g id="chart-series-b">
+      <path d="M 226 500 L 409 490 L 592 470 L 775 455 L 958 440 L 1141 430" fill="none" stroke="#8c8c92" stroke-width="2" stroke-dasharray="5 5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="chart-series-a">
+      <path d="M 226 470 L 409 440 L 592 400 L 775 350 L 958 320 L 1141 290" fill="none" stroke="#ee6d1d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="226" cy="470" r="4" fill="#ffffff" stroke="#ee6d1d" stroke-width="2.5"/>
+      <circle cx="409" cy="440" r="4" fill="#ffffff" stroke="#ee6d1d" stroke-width="2.5"/>
+      <circle cx="592" cy="400" r="4" fill="#ffffff" stroke="#ee6d1d" stroke-width="2.5"/>
+      <circle cx="775" cy="350" r="4" fill="#ffffff" stroke="#ee6d1d" stroke-width="2.5"/>
+      <circle cx="958" cy="320" r="4" fill="#ffffff" stroke="#ee6d1d" stroke-width="2.5"/>
+      <circle cx="1141" cy="290" r="5" fill="#ee6d1d"/>
+    </g>
+    <g id="chart-x-axis" text-anchor="middle" font-family="'KoPub돋움체 Medium', 'KoPubDotum Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#8c8c92">
+      <text x="226" y="570">01</text>
+      <text x="409" y="570">02</text>
+      <text x="592" y="570">03</text>
+      <text x="775" y="570">04</text>
+      <text x="958" y="570">05</text>
+      <text x="1141" y="570">06</text>
+    </g>
+  </g>
+  <g id="page-foot">
+    <text x="80" y="674" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#8c8c92">{{BRAND_MARK}}</text>
+    <text x="1200" y="674" text-anchor="end" font-family="'KoPub돋움체 Medium', 'KoPubDotum Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#8c8c92">{{PAGE_LABEL}}</text>
+  </g>
+</svg>

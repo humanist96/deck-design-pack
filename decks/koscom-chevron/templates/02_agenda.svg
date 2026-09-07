@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="koscom-master" data-pptx-master-name="Koscom Chevron" data-pptx-layout="02_agenda" data-pptx-layout-name="Agenda">
+  <!-- Koscom Chevron — 02 Agenda: left title block + 5 numbered rows -->
+  <rect id="master-bg" width="1280" height="720" fill="#ffffff" data-pptx-layer="master" data-pptx-editable="false"/>
+  <polygon id="layout-chevron-grey" points="1080,430 1213,430 1392,640 1213,850 1080,850 1243,640" fill="#ececee" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <line id="layout-list-top-rule" x1="540" y1="150" x2="1200" y2="150" stroke="#2b2b2e" stroke-width="2" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <g id="agenda-kicker">
+    <rect x="80" y="130" width="8" height="26" fill="#ee6d1d"/>
+    <text x="100" y="150" font-family="'KoPub돋움체 Medium', 'KoPubDotum Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="15" letter-spacing="4" fill="#ee6d1d">{{KICKER}}</text>
+  </g>
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="80 176 400 70">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="80" y="232" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="48" letter-spacing="-0.5" fill="#2b2b2e">{{TITLE}}</text>
+  </g>
+  <g id="agenda-subtitle">
+    <text x="80" y="270" font-family="'KoPub돋움체 Medium', 'KoPubDotum Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="15" fill="#8c8c92">{{SUBTITLE}}</text>
+  </g>
+  <g id="agenda-item-1">
+    <text x="540" y="208" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="44" fill="#ee6d1d">{{ITEM_1_NO}}</text>
+    <text x="660" y="192" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="24" fill="#2b2b2e">{{ITEM_1_TITLE}}</text>
+    <text x="660" y="220" font-family="'KoPub돋움체 Medium', 'KoPubDotum Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="15" fill="#8c8c92">{{ITEM_1_TAG}}</text>
+    <line x1="540" y1="242" x2="1200" y2="242" stroke="#dcdce0" stroke-width="1"/>
+  </g>
+  <g id="agenda-item-2">
+    <text x="540" y="302" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="44" fill="#ee6d1d">{{ITEM_2_NO}}</text>
+    <text x="660" y="286" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="24" fill="#2b2b2e">{{ITEM_2_TITLE}}</text>
+    <text x="660" y="314" font-family="'KoPub돋움체 Medium', 'KoPubDotum Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="15" fill="#8c8c92">{{ITEM_2_TAG}}</text>
+    <line x1="540" y1="336" x2="1200" y2="336" stroke="#dcdce0" stroke-width="1"/>
+  </g>
+  <g id="agenda-item-3">
+    <text x="540" y="396" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="44" fill="#ee6d1d">{{ITEM_3_NO}}</text>
+    <text x="660" y="380" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="24" fill="#2b2b2e">{{ITEM_3_TITLE}}</text>
+    <text x="660" y="408" font-family="'KoPub돋움체 Medium', 'KoPubDotum Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="15" fill="#8c8c92">{{ITEM_3_TAG}}</text>
+    <line x1="540" y1="430" x2="1200" y2="430" stroke="#dcdce0" stroke-width="1"/>
+  </g>
+  <g id="agenda-item-4">
+    <text x="540" y="490" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="44" fill="#ee6d1d">{{ITEM_4_NO}}</text>
+    <text x="660" y="474" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="24" fill="#2b2b2e">{{ITEM_4_TITLE}}</text>
+    <text x="660" y="502" font-family="'KoPub돋움체 Medium', 'KoPubDotum Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="15" fill="#8c8c92">{{ITEM_4_TAG}}</text>
+    <line x1="540" y1="524" x2="1200" y2="524" stroke="#dcdce0" stroke-width="1"/>
+  </g>
+  <g id="agenda-item-5">
+    <text x="540" y="584" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="44" fill="#ee6d1d">{{ITEM_5_NO}}</text>
+    <text x="660" y="568" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="24" fill="#2b2b2e">{{ITEM_5_TITLE}}</text>
+    <text x="660" y="596" font-family="'KoPub돋움체 Medium', 'KoPubDotum Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="15" fill="#8c8c92">{{ITEM_5_TAG}}</text>
+    <line x1="540" y1="618" x2="1200" y2="618" stroke="#dcdce0" stroke-width="1"/>
+  </g>
+  <g id="page-foot">
+    <text x="80" y="674" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#8c8c92">{{BRAND_MARK}}</text>
+    <text x="1200" y="674" text-anchor="end" font-family="'KoPub돋움체 Medium', 'KoPubDotum Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#8c8c92">{{PAGE_LABEL}}</text>
+  </g>
+</svg>
