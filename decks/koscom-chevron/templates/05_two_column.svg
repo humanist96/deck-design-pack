@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="koscom-master" data-pptx-master-name="Koscom Chevron" data-pptx-layout="05_two_column" data-pptx-layout-name="Two Column">
+  <!-- Koscom Chevron — 05 Two column: text + numbered points / card stack -->
+  <rect id="master-bg" width="1280" height="720" fill="#ffffff" data-pptx-layer="master" data-pptx-editable="false"/>
+  <line id="layout-column-divider" x1="640" y1="236" x2="640" y2="580" stroke="#dcdce0" stroke-width="1" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <g id="page-kicker">
+    <text x="80" y="96" font-family="'KoPub돋움체 Medium', 'KoPubDotum Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#ee6d1d">{{KICKER}}</text>
+  </g>
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="80 110 1120 44">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="80" y="144" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="30" fill="#ee6d1d">{{TITLE}}</text>
+  </g>
+  <g id="page-lead">
+    <text x="80" y="190" font-family="'KoPub돋움체 Medium', 'KoPubDotum Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#2b2b2e">{{LEAD}}</text>
+  </g>
+  <g id="column-a">
+    <text x="80" y="246" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#2b2b2e">{{COL_A_TITLE}}</text>
+    <line x1="80" y1="258" x2="600" y2="258" stroke="#2b2b2e" stroke-width="1"/>
+    <text x="80" y="296" font-family="'KoPub돋움체 Medium', 'KoPubDotum Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#6e6e73">{{BODY}}</text>
+    <circle cx="92" cy="351" r="12" fill="#ee6d1d"/><text x="92" y="355.5" text-anchor="middle" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#ffffff">1</text>
+    <text x="118" y="356" font-family="'KoPub돋움체 Medium', 'KoPubDotum Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#2b2b2e">{{POINT_1}}</text>
+    <line x1="80" y1="380" x2="600" y2="380" stroke="#dcdce0" stroke-width="1"/>
+    <circle cx="92" cy="419" r="12" fill="#ee6d1d"/><text x="92" y="423.5" text-anchor="middle" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#ffffff">2</text>
+    <text x="118" y="424" font-family="'KoPub돋움체 Medium', 'KoPubDotum Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#2b2b2e">{{POINT_2}}</text>
+    <line x1="80" y1="448" x2="600" y2="448" stroke="#dcdce0" stroke-width="1"/>
+    <circle cx="92" cy="487" r="12" fill="#ee6d1d"/><text x="92" y="491.5" text-anchor="middle" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#ffffff">3</text>
+    <text x="118" y="492" font-family="'KoPub돋움체 Medium', 'KoPubDotum Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#2b2b2e">{{POINT_3}}</text>
+    <line x1="80" y1="516" x2="600" y2="516" stroke="#dcdce0" stroke-width="1"/>
+  </g>
+  <g id="column-b">
+    <text x="680" y="246" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="16" fill="#2b2b2e">{{COL_B_TITLE}}</text>
+    <line x1="680" y1="258" x2="1200" y2="258" stroke="#2b2b2e" stroke-width="1"/>
+    <rect x="680" y="280" width="520" height="88" fill="#f5f5f7" stroke="#dcdce0" stroke-width="1"/>
+    <circle cx="712" cy="324" r="12" fill="#ee6d1d"/><text x="712" y="328.5" text-anchor="middle" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#ffffff">1</text>
+    <text x="740" y="318" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="17" fill="#ee6d1d">{{CARD_1_TITLE}}</text>
+    <text x="740" y="344" font-family="'KoPub돋움체 Medium', 'KoPubDotum Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#6e6e73">{{CARD_1_BODY}}</text>
+    <rect x="680" y="384" width="520" height="88" fill="#f5f5f7" stroke="#dcdce0" stroke-width="1"/>
+    <circle cx="712" cy="428" r="12" fill="#ee6d1d"/><text x="712" y="432.5" text-anchor="middle" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#ffffff">2</text>
+    <text x="740" y="422" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="17" fill="#ee6d1d">{{CARD_2_TITLE}}</text>
+    <text x="740" y="448" font-family="'KoPub돋움체 Medium', 'KoPubDotum Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#6e6e73">{{CARD_2_BODY}}</text>
+    <rect x="680" y="488" width="520" height="88" fill="#f5f5f7" stroke="#dcdce0" stroke-width="1"/>
+    <circle cx="712" cy="532" r="12" fill="#ee6d1d"/><text x="712" y="536.5" text-anchor="middle" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#ffffff">3</text>
+    <text x="740" y="526" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="17" fill="#ee6d1d">{{CARD_3_TITLE}}</text>
+    <text x="740" y="552" font-family="'KoPub돋움체 Medium', 'KoPubDotum Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#6e6e73">{{CARD_3_BODY}}</text>
+  </g>
+  <g id="page-foot">
+    <text x="80" y="674" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#8c8c92">{{BRAND_MARK}}</text>
+    <text x="1200" y="674" text-anchor="end" font-family="'KoPub돋움체 Medium', 'KoPubDotum Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#8c8c92">{{PAGE_LABEL}}</text>
+  </g>
+</svg>

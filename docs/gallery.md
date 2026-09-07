@@ -234,3 +234,40 @@ Full specification: [`decks/open-road/templates/design_spec.md`](../decks/open-r
 Full specification: [`decks/signal-green/templates/design_spec.md`](../decks/signal-green/templates/design_spec.md) · identity-only preset: [`brands/signal-green/`](../brands/signal-green/)
 
 ---
+
+## Koscom Chevron
+
+`koscom-chevron` · primary `#EE6D1D` · 10 pages · corporate house template (KoPub돋움체)
+
+<img src="../previews/koscom-chevron.png" width="100%">
+
+| | |
+|---|---|
+| **Theme** | Light body + **navy** anchors (`#00338D`) + **black** signature — the three surfaces of Koscom's official Orange / Blue / Black samples in one spine |
+| **Tone** | 단정하고 명확한 공기업형 코퍼레이트 — 굵은 KoPub 헤드라인, 넉넉한 여백, 한 방향(›)으로 밀어주는 셰브론 |
+| **Use cases** | 회사소개서, 사업 브리핑, 경영 보고, 대외 제안서, 채용 설명회 — 코스콤 및 자본시장 IT 문맥 |
+| **Anchors** | [koscom, chevron, orange, navy, corporate, capital-market, kopub] |
+
+**Signature**
+
+1. **셰브론(›) 모티프** — 하우스 마크의 꺾쇠를 565×760 다각형으로 옮겼다. 표지 3겹(grey → pale → orange-deep), 챕터 3겹(navy-mid → navy-soft → orange-deep), 클로징 2겹. 항상 오른쪽을 가리키고 캔버스 밖으로 잘려 나가며 **본문 페이지에는 오르지 않는다**
+2. **키커 바 + 굵은 KoPub 헤드라인** — 8×26 오렌지 세로 바 뒤에 대문자 키커(자간 +4), 그 아래 Bold 헤드라인. 위계는 크기 램프(128 / 52 / 48 / 30)로 만든다
+3. **웨이브 필드** — 시그니처 페이지의 블랙 위에 1px 오렌지 사인 곡선 14줄을 세 톤으로 층지어 깊이를 만든다. 래스터가 아니라 패스다
+4. **번호 원** — r=12 오렌지 원 + 흰 숫자. 목록·카드·다이어그램의 순서는 불릿 대신 이것으로
+
+**Page roster**
+
+| File | Layout key | Surface | Purpose |
+| --- | --- | --- | --- |
+| `01_cover.svg` | `01_cover` | white + chevrons | 표지 — 브랜드 마크, 키커 바, 52px 헤드라인, 셰브론 3겹 |
+| `02_agenda.svg` | `02_agenda` | white | 목차 — 좌 제목 블록 / 우 5행(44px 오렌지 번호) |
+| `03_section.svg` | `03_section` | **navy** | 챕터 — 128px 번호 + `CHAPTER` + 제목, 셰브론 3겹 |
+| `04_wave_statement.svg` | `04_wave_statement` | **black** | **시그니처** — 웨이브 필드 + 56px 진술문 |
+| `05_two_column.svg` | `05_two_column` | white | 좌 본문 + 번호 포인트 / 우 번호 카드 |
+| `06_card_grid.svg` | `06_card_grid` | white | 3-up 카드 — 오렌지 틴트 헤더 밴드 |
+| `07_metrics.svg` | `07_metrics` | white | 3-up 지표 — 3번째 패널 오렌지 |
+| `08_chart_bar.svg` | `chart_linear` | white | 6-바 추이, 각진 바, 피크 오렌지 |
+| `09_chart_line.svg` | `chart_linear` | white | 2계열 추이 — 오렌지 실선 + 그레이 점선 |
+| `10_closing.svg` | `10_closing` | **navy** | 클로징 — 60px 브랜드 마크 + 셰브론 |
+
+Full specification: [`decks/koscom-chevron/templates/design_spec.md`](../decks/koscom-chevron/templates/design_spec.md) · identity-only preset: [`brands/koscom-chevron/`](../brands/koscom-chevron/) · fonts: [`decks/koscom-chevron/fonts/FONTS.md`](../decks/koscom-chevron/fonts/FONTS.md)

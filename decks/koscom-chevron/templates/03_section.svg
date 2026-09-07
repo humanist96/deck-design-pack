@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="koscom-master" data-pptx-master-name="Koscom Chevron" data-pptx-layout="03_section" data-pptx-layout-name="Section">
+  <!-- Koscom Chevron — 03 Section: navy counterpanel + chevron cluster -->
+  <rect id="master-bg" width="1280" height="720" fill="#ffffff" data-pptx-layer="master" data-pptx-editable="false"/>
+  <rect id="layout-bg-navy" x="0" y="0" width="1280" height="720" fill="#00338d" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <polygon id="layout-chevron-back" points="1080,-60 1333,-60 1675,340 1333,740 1080,740 1391,340" fill="#1f4b9b" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <polygon id="layout-chevron-soft" points="880,210 1006,210 1177,410 1006,610 880,610 1035,410" fill="#0f499c" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <polygon id="layout-chevron-orange" points="960,30 1168,30 1451,360 1168,690 960,690 1216,360" fill="#f26522" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <g id="section-number">
+    <text x="80" y="258" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="128" letter-spacing="-2" fill="#ffffff">{{SECTION_NO}}</text>
+  </g>
+  <g id="section-kicker">
+    <text x="80" y="334" font-family="'KoPub돋움체 Medium', 'KoPubDotum Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="15" letter-spacing="5" fill="#ffffff">{{KICKER}}</text>
+  </g>
+  <g id="title-slot" data-pptx-placeholder="title" data-pptx-placeholder-bounds="80 366 760 70">
+    <text id="title-carrier" data-pptx-placeholder-carrier="true" x="80" y="420" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="48" letter-spacing="-0.5" fill="#ffffff">{{TITLE}}</text>
+  </g>
+  <g id="section-lead">
+    <text x="80" y="478" font-family="'KoPub돋움체 Medium', 'KoPubDotum Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="18" fill="#ffffff">{{LEAD}}</text>
+  </g>
+  <g id="page-foot">
+    <text x="80" y="674" font-family="'KoPub돋움체 Bold', 'KoPubDotum Bold', Pretendard, 'Malgun Gothic', sans-serif" font-size="14" fill="#edf4fb">{{BRAND_MARK}}</text>
+    <text x="1200" y="674" text-anchor="end" font-family="'KoPub돋움체 Medium', 'KoPubDotum Medium', Pretendard, 'Malgun Gothic', sans-serif" font-size="13" fill="#edf4fb">{{PAGE_LABEL}}</text>
+  </g>
+</svg>

@@ -14,7 +14,9 @@ These conventions are not owned by any company. The templates implement them fro
 
 Some `design_spec.md` files name a company as a **reference point for the design idiom** ("Linear 계열", "Vercel 계열에서 착안"). This is descriptive, comparative reference — it identifies the visual family a reader may already recognise. It is not a claim of origin, endorsement, affiliation, sponsorship, or approval by any named company.
 
-Template identifiers and display names are deliberately original (`midnight-panel`, `polarity`, `gradient-mesh`, `warm-doc`, `open-road`, `signal-green`) so that no third-party mark appears in a product name, file path, or index entry.
+One template is different in kind: **`koscom-chevron`** is a corporate *house* template, re-authored from Koscom Co., Ltd.'s own presentation samples and contributed by the pack maintainer. "Koscom" and the chevron (›) mark are Koscom's. The template reproduces the sample's layout grammar, palette and type ramp; it does **not** bundle the logo image (the brand appears only as the text slot `{{BRAND_MARK}}`), and the chevron appears only as an abstract polygon motif. Use of the template for material that represents Koscom is a matter for Koscom.
+
+For the six original templates, identifiers and display names are deliberately original (`midnight-panel`, `polarity`, `gradient-mesh`, `warm-doc`, `open-road`, `signal-green`) so that no third-party mark appears in a product name, file path, or index entry.
 
 All trademarks referenced remain the property of their respective owners.
 
@@ -24,7 +26,7 @@ Hex colour values, spacing scales, and corner-radius values are factual measurem
 
 ## Fonts
 
-**No font files are bundled.** Typography across the pack is locked to **Pretendard** (SIL Open Font License), which the consuming workspace supplies. Where a reference design uses a proprietary or separately-licensed typeface (for example Söhne, Geist, Universal Sans, or an in-house corporate face), that typeface is **not used and not shipped** — the templates reproduce its character through weight span, letter-spacing, and size ramp only.
+**No font files are bundled by the six original templates.** `koscom-chevron` ships KoPub돋움체 (Korea Publishers Society; free to use and redistribute unmodified, no resale) under `decks/koscom-chevron/fonts/` with its licence note. Typography across the pack is locked to **Pretendard** (SIL Open Font License), which the consuming workspace supplies. Where a reference design uses a proprietary or separately-licensed typeface (for example Söhne, Geist, Universal Sans, or an in-house corporate face), that typeface is **not used and not shipped** — the templates reproduce its character through weight span, letter-spacing, and size ramp only.
 
 Because PPTX does not embed fonts, decks exported from these templates require Pretendard to be installed on any machine that opens them.
 

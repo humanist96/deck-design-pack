@@ -1,18 +1,19 @@
 # Deck Design Pack
 
-Six original 16:9 presentation template systems for [ppt-master](https://github.com/hugohe3/ppt-master)-compatible workspaces — the SVG-authoring pipeline that turns source documents into natively editable PowerPoint decks.
+Seven 16:9 presentation template systems — six original designs plus one corporate house template — for [ppt-master](https://github.com/hugohe3/ppt-master)-compatible workspaces — the SVG-authoring pipeline that turns source documents into natively editable PowerPoint decks.
 
 Each template ships **10 hand-authored SVG page prototypes** plus a full design specification, and compiles to a real PowerPoint Master/Layout structure — not a flattened picture deck.
 
 ```
-6 templates · 60 SVG prototypes · 6 identity-only brand presets
+7 templates · 70 SVG prototypes · 7 identity-only brand presets
 0 errors / 0 warnings on the structural checker
-all six verified end to end: generated deck → export → verify_deck PASS
+the six originals verified end to end: generated deck → export → verify_deck PASS
+koscom-chevron: structural lint clean · rendered contact sheet · not yet run through verify_deck
 ```
 
 ---
 
-## The six
+## The seven
 
 | Template | Theme | Primary | Signature move | Best for |
 |---|---|---|---|---|
@@ -22,6 +23,7 @@ all six verified end to end: generated deck → export → verify_deck PASS
 | **[Warm Document](decks/warm-doc/)** | warm light | `#5645D4` | 1px outline grammar, five pastel tint cards | Handbooks, onboarding, team wiki decks |
 | **[Open Road](decks/open-road/)** | light + carbon | `#3E6AE1` | One page, one message; full-bleed photography | Product launches, brand keynotes, vision decks |
 | **[Signal Green](decks/signal-green/)** | black / white | `#76B900` | 12×12 corner-square marker; angular 2px geometry | AI/GPU briefings, benchmarks, developer sessions |
+| **[Koscom Chevron](decks/koscom-chevron/)** | white + navy + black | `#EE6D1D` | Orange chevron (›) cluster on anchor pages; KoPub Dotum Bold headlines | Koscom company profiles, business briefings, capital-market IT proposals |
 
 Every template also ships an **identity-only brand preset** under [`brands/`](brands/) — the same colours, typography, voice, and icon rules with no page roster, for when you want the look but your own page structure.
 
@@ -34,6 +36,7 @@ Every template also ships an **identity-only brand preset** under [`brands/`](br
 | **Midnight Panel**<br><img src="previews/midnight-panel.png" width="420"> | **Polarity Mono**<br><img src="previews/polarity.png" width="420"> |
 | **Gradient Mesh Fintech**<br><img src="previews/gradient-mesh.png" width="420"> | **Warm Document**<br><img src="previews/warm-doc.png" width="420"> |
 | **Open Road**<br><img src="previews/open-road.png" width="420"> | **Signal Green**<br><img src="previews/signal-green.png" width="420"> |
+| **Koscom Chevron**<br><img src="previews/koscom-chevron.png" width="420"> | |
 
 Full-size contact sheets: [`previews/`](previews/) · per-template detail: [`docs/gallery.md`](docs/gallery.md)
 
@@ -78,7 +81,7 @@ decks/<id>/templates/
 └── 10_closing.svg          # ─┘
 ```
 
-All six share the same 10-page spine so the pack reads as one system. **Page 04 is where each template's identity shows** — a product panel, a polarity flip, a gradient statement, a tint-card stack, a full-bleed hero, a black hero.
+All seven share the same 10-page spine so the pack reads as one system. **Page 04 is where each template's identity shows** — a product panel, a polarity flip, a gradient statement, a tint-card stack, a full-bleed hero, a black hero, a black wave field.
 
 Each `design_spec.md` locks the things that make a deck look designed rather than assembled: an exhaustive colour list (nothing outside it may appear in a generated SVG), a native body-size baseline that overrides the generic default, a chart grammar, and an anti-pattern checklist written to be rejected at authoring time.
 
@@ -104,7 +107,7 @@ Verified per template:
 | End-to-end deck generation (`strict` adherence) | 0 errors, 0 warnings · `verify_deck` PASS |
 | Exported package | 1 master · layout picker names preserved · placeholders bound |
 
-All six were verified end to end, not just structurally: a 7-page deck was generated from each
+The six originals were verified end to end, not just structurally: a 7-page deck was generated from each
 template under `strict` adherence — cover, agenda, section, the signature page, metrics, a chart
 with real data, and the closing — and each exported package opens with the template's own layout
 names in the PowerPoint picker.
@@ -115,7 +118,7 @@ Authoring details: [`docs/authoring.md`](docs/authoring.md).
 
 ## Typography
 
-Everything is locked to **Pretendard** (SIL OFL), supplied by the workspace. Hierarchy comes from weight span, letter-spacing, and size ramp — never from switching families.
+The six originals are locked to **Pretendard** (SIL OFL), supplied by the workspace. `koscom-chevron` is the exception: it keeps the **KoPub돋움체** lock of Koscom's official material and ships the three weights under [`decks/koscom-chevron/fonts/`](decks/koscom-chevron/fonts/FONTS.md) (KoPub licence, free to use and redistribute unmodified). Hierarchy comes from weight span, letter-spacing, and size ramp — never from switching families.
 
 Latin letter-spacing values in each spec are the reference; **Korean-dominant runs relax them by ×0.5**, because Korean glyph widths are uniform and the same negative tracking closes the letterforms up.
 
@@ -127,4 +130,4 @@ Latin letter-spacing values in each spec are the reference; **Korean-dominant ru
 
 [MIT](LICENSE) © 2026 humanist96.
 
-No third-party trademarks, logos, wordmarks, fonts, or photographs are bundled. Where a specification names a company, it identifies a design *idiom* as a reference point — descriptive comparison, not a claim of endorsement or affiliation. See [`TRADEMARKS.md`](TRADEMARKS.md) for the full position.
+No third-party trademarks, logos, wordmarks, or photographs are bundled by the six original templates. `koscom-chevron` is a corporate house template built from Koscom's own sample decks: the Koscom name and chevron mark belong to Koscom Co., Ltd., the logo image is still not bundled (text `{{BRAND_MARK}}` slot only), and the KoPub fonts it ships are under their own free licence. Where a specification names a company, it identifies a design *idiom* as a reference point — descriptive comparison, not a claim of endorsement or affiliation. See [`TRADEMARKS.md`](TRADEMARKS.md) for the full position.
