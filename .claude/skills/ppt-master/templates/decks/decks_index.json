@@ -1,0 +1,123 @@
+{
+  "apple": {
+    "summary": "Apple 계열 모노크롬 미니멀 키노트 — 제품 발표, 브랜드 스토리, 디자인 리뷰, 조용한 프리미엄 톤의 전략 브리핑",
+    "canvas_format": "ppt169",
+    "page_count": 13,
+    "primary_color": "#1D1D1F",
+    "defaults": {
+      "mode": "showcase",
+      "visual_style": "swiss-minimal",
+      "delivery_purpose": "balanced"
+    }
+  },
+  "gradient-mesh": {
+    "summary": "그라디언트 메시 핀테크 덱 — 파트너 제안서, 핀테크 IR, 제품 이코노믹스, SaaS 가격 설명 (Stripe 계열 인디고 + 메시 그라디언트에서 착안)",
+    "canvas_format": "ppt169",
+    "page_count": 10,
+    "primary_color": "#533AFD",
+    "defaults": {
+      "mode": "pyramid",
+      "visual_style": "glassmorphism",
+      "delivery_purpose": "balanced"
+    }
+  },
+  "jangpm": {
+    "summary": "Korean editorial lecture / report decks — 강의, 워크숍, 전략 브리핑, 분석 리포트",
+    "canvas_format": "ppt169",
+    "page_count": 4,
+    "primary_color": "#4633E3",
+    "defaults": {
+      "mode": "instructional",
+      "visual_style": "editorial",
+      "delivery_purpose": "balanced"
+    }
+  },
+  "koscom-chevron": {
+    "summary": "코스콤 공식 PPT 샘플(Black·Blue·Orange, 2026.06)을 pack 문법으로 재작성한 하우스 덱 — 오렌지 셰브론(›) 모티프, KoPub돋움체 Bold/Medium, 화이트 본문 + 네이비 챕터 + 블랙 시그니처",
+    "canvas_format": "ppt169",
+    "page_count": 10,
+    "primary_color": "#EE6D1D",
+    "defaults": {
+      "mode": "briefing",
+      "visual_style": "swiss-minimal",
+      "delivery_purpose": "balanced"
+    }
+  },
+  "mckinsey": {
+    "summary": "McKinsey consulting-style strategy decks — 전략 보고서, 시장/산업 분석, 경영진 브리핑, 실행 로드맵",
+    "canvas_format": "ppt169",
+    "page_count": 10,
+    "primary_color": "#0F2A4A",
+    "defaults": {
+      "mode": "pyramid",
+      "visual_style": "swiss-minimal",
+      "delivery_purpose": "text"
+    }
+  },
+  "midnight-panel": {
+    "summary": "니어블랙 다크 프로덕트 덱 — 제품 로드맵, 스프린트 리뷰, 엔지니어링 브리핑, 개발자 대상 발표 (Linear 계열 절제형 다크 UI에서 착안)",
+    "canvas_format": "ppt169",
+    "page_count": 10,
+    "primary_color": "#5E6AD2",
+    "defaults": {
+      "mode": "briefing",
+      "visual_style": "dark-tech",
+      "delivery_purpose": "balanced"
+    }
+  },
+  "naver_ir": {
+    "summary": "NAVER IR 실적발표 스타일 — 분기 실적발표, 재무 보고, 투자자 미팅, 절제된 재무 데이터 덱",
+    "canvas_format": "ppt169",
+    "page_count": 7,
+    "primary_color": "#03C75A",
+    "defaults": {
+      "mode": "briefing",
+      "visual_style": "data-journalism",
+      "delivery_purpose": "balanced"
+    }
+  },
+  "open-road": {
+    "summary": "시네마틱 풀블리드 사진 키노트 덱 — 제품 런칭, 브랜드 키노트, 비전 발표, 쇼룸/전시 프레젠테이션 (Tesla 계열 갤러리형 여백 + 카본 다크 구분면에서 착안)",
+    "canvas_format": "ppt169",
+    "page_count": 10,
+    "primary_color": "#3E6AE1",
+    "defaults": {
+      "mode": "showcase",
+      "visual_style": "photo-editorial",
+      "delivery_purpose": "presentation"
+    }
+  },
+  "polarity": {
+    "summary": "흑백 극성 반전 개발자 덱 — 기술 발표, 데모데이, 개발자 컨퍼런스, 플랫폼/인프라 소개 (Vercel 계열 모노크롬 + 메시 그라디언트에서 착안)",
+    "canvas_format": "ppt169",
+    "page_count": 10,
+    "primary_color": "#171717",
+    "defaults": {
+      "mode": "showcase",
+      "visual_style": "swiss-minimal",
+      "delivery_purpose": "balanced"
+    }
+  },
+  "signal-green": {
+    "summary": "블랙 히어로 + 시그널 그린 기술 키노트 덱 — AI·GPU·인프라 브리핑, 개발자 세션, 기술 컨퍼런스, 벤치마크 발표 (NVIDIA 계열 앵귤러 지오메트리 + 단일 그린 악센트에서 착안)",
+    "canvas_format": "ppt169",
+    "page_count": 10,
+    "primary_color": "#76B900",
+    "defaults": {
+      "mode": "showcase",
+      "visual_style": "dark-tech",
+      "delivery_purpose": "presentation"
+    }
+  },
+  "warm-doc": {
+    "summary": "웜 뉴트럴 문서형 덱 — 사내 문서·핸드북, 온보딩, 팀 위키 발표, 프로세스 안내 (Notion 계열 웜그레이 + 파스텔 틴트 카드에서 착안)",
+    "canvas_format": "ppt169",
+    "page_count": 10,
+    "primary_color": "#5645D4",
+    "defaults": {
+      "mode": "instructional",
+      "visual_style": "soft-rounded",
+      "delivery_purpose": "text"
+    }
+  }
+}

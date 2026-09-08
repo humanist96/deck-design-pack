@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
-"""Install this pack's deck templates and brand presets into a ppt-master workspace.
+"""Export this repo's deck templates and brand presets into another ppt-master workspace.
 
-Copies `decks/<id>/` and `brands/<id>/` into the workspace template library, then
-writes both discovery indexes.
+This repository is already a complete workspace: the templates live in
+`.claude/skills/ppt-master/templates/{decks,brands}/` and are registered in both
+discovery indexes, so a plain clone needs no install step. This script exists for
+the other direction — copying the pack into a *separate* ppt-master workspace you
+already run, then writing that workspace's two discovery indexes.
 
 Why this script exists instead of just calling the workspace registrar: the stock
 `register_template.py` rebuilds each deck index entry from scratch and drops the
@@ -13,7 +16,7 @@ however many times the index is rebuilt.
 
 Usage
 -----
-    python3 install.py /path/to/ppt-master-workspace
+    python3 install.py /path/to/other-ppt-master-workspace
     python3 install.py /path/to/workspace --only midnight-panel polarity
     python3 install.py /path/to/workspace --force      # overwrite existing ids
     python3 install.py /path/to/workspace --dry-run
@@ -31,6 +34,23 @@ from pathlib import Path
 
 PACK_ROOT = Path(__file__).resolve().parent
 TEMPLATES_SUBPATH = Path(".claude/skills/ppt-master/templates")
+
+# Source of truth for both kinds. Since the pack was folded into the workspace
+# tree, the templates live at the same relative path they are installed to.
+PACK_TEMPLATES = PACK_ROOT / TEMPLATES_SUBPATH
+
+# This pack's own ids. The source directory is now shared with the templates that
+# ship with the embedded workflow, so exporting has to name what belongs to the
+# pack rather than sweeping the whole library.
+PACK_IDS = (
+    "gradient-mesh",
+    "koscom-chevron",
+    "midnight-panel",
+    "open-road",
+    "polarity",
+    "signal-green",
+    "warm-doc",
+)
 
 # Stage-1 anchor keys the Confirm UI honours; anything else is ignored there, so
 # it is dropped here rather than written into the index.
@@ -114,14 +134,19 @@ def anchor_defaults(raw: object) -> "OrderedDict[str, str] | None":
 # --------------------------------------------------------------------------- #
 
 def discover(kind: str, only: list[str] | None) -> list[tuple[str, Path]]:
-    base = PACK_ROOT / ("decks" if kind == "deck" else "brands")
+    base = PACK_TEMPLATES / ("decks" if kind == "deck" else "brands")
     if not base.is_dir():
         raise InstallError(f"pack directory missing: {base}")
     found = []
     for entry in sorted(base.iterdir()):
         spec = entry / "templates" / "design_spec.md"
-        if entry.is_dir() and spec.is_file():
+        if entry.name in PACK_IDS and entry.is_dir() and spec.is_file():
             found.append((entry.name, entry))
+    missing_pack = set(PACK_IDS) - {name for name, _ in found}
+    if missing_pack:
+        raise InstallError(
+            f"{kind}: pack template(s) missing from {base}: {sorted(missing_pack)}"
+        )
     if only:
         wanted = set(only)
         found = [item for item in found if item[0] in wanted]
@@ -159,6 +184,12 @@ def brand_entry(template_id: str, spec_dir: Path) -> "OrderedDict[str, object]":
 # --------------------------------------------------------------------------- #
 
 def install(workspace: Path, only: list[str] | None, force: bool, dry_run: bool) -> int:
+    if workspace == PACK_ROOT:
+        raise InstallError(
+            "target workspace is this repository — the templates are already "
+            "installed here; point this at a different ppt-master workspace"
+        )
+
     templates_root = workspace / TEMPLATES_SUBPATH
     if not templates_root.is_dir():
         raise InstallError(

@@ -1,0 +1,54 @@
+{
+  "anthropic": {
+    "summary": "Anthropic brand identity — AI/LLM tech talks, developer conferences, technical training, product launches",
+    "primary_color": "#D97757"
+  },
+  "apple": {
+    "summary": "Apple 계열 모노크롬 미니멀 아이덴티티 — 잉크 단일 시그널, 서피스 반전 강조, 조용한 프리미엄 보이스",
+    "primary_color": "#1D1D1F"
+  },
+  "google": {
+    "summary": "Google brand identity — multi-product corporate decks, developer events (Google I/O style), education and training in the Google ecosystem",
+    "primary_color": "#4285F4"
+  },
+  "gradient-mesh": {
+    "summary": "인디고 + 메시 그라디언트 핀테크 아이덴티티 — 얇은 디스플레이 웨이트, 풀 필 CTA, 표 정렬 숫자",
+    "primary_color": "#533AFD"
+  },
+  "jangpm": {
+    "summary": "Jangpm editorial identity — Korean lecture / report decks, 모노크롬 + 단일 인디고 액센트",
+    "primary_color": "#4633E3"
+  },
+  "koscom-chevron": {
+    "summary": "코스콤 하우스 아이덴티티 — 오렌지 셰브론(›) 모티프, 네이비 앵커, KoPub돋움체 Bold 헤드라인, 각진 기하",
+    "primary_color": "#EE6D1D"
+  },
+  "mckinsey": {
+    "summary": "McKinsey consulting-style identity — 전략 보고/분석 브리핑, 네이비 구조색 + 시안 포인트, 액션 타이틀 보이스",
+    "primary_color": "#0F2A4A"
+  },
+  "midnight-panel": {
+    "summary": "니어블랙 다크 프로덕트 아이덴티티 — 서피스 계단 깊이, 단일 라벤더 시그널, 4단 잉크 위계",
+    "primary_color": "#5E6AD2"
+  },
+  "naver": {
+    "summary": "NAVER corporate identity — IR/실적발표, 재무 보고, 네이버 관련 기업·서비스 자료",
+    "primary_color": "#03C75A"
+  },
+  "open-road": {
+    "summary": "시네마틱 사진 키노트 아이덴티티 — 한 화면 한 메시지, 각진 지오메트리, 카본 다크 구분면",
+    "primary_color": "#3E6AE1"
+  },
+  "polarity": {
+    "summary": "흑백 극성 반전 개발자 아이덴티티 — 배경 반전이 곧 챕터 구분, 단일 메시 그라디언트 오브젝트",
+    "primary_color": "#171717"
+  },
+  "signal-green": {
+    "summary": "블랙 히어로 + 시그널 그린 기술 아이덴티티 — 앵귤러 2px, 코너 스퀘어 표식, 극성 교대",
+    "primary_color": "#76B900"
+  },
+  "warm-doc": {
+    "summary": "웜 뉴트럴 문서형 아이덴티티 — 1px 아웃라인 문법, 파스텔 틴트 5색, 딥 네이비 히어로 밴드",
+    "primary_color": "#5645D4"
+  }
+}

@@ -41,7 +41,7 @@ Contact sheets are rendered from the template's own review PPTX — what you see
 | `09_chart_line.svg` | `chart_linear` | Chart | 2계열 추이 (실선/점선) |
 | `10_closing.svg` | `10_closing` | Closing | 대형 브랜드 마크 + 클로징 카피 |
 
-Full specification: [`decks/midnight-panel/templates/design_spec.md`](../decks/midnight-panel/templates/design_spec.md) · identity-only preset: [`brands/midnight-panel/`](../brands/midnight-panel/)
+Full specification: [`decks/midnight-panel/templates/design_spec.md`](../.claude/skills/ppt-master/templates/decks/midnight-panel/templates/design_spec.md) · identity-only preset: [`brands/midnight-panel/`](../.claude/skills/ppt-master/templates/brands/midnight-panel/)
 
 ---
 
@@ -79,7 +79,7 @@ Full specification: [`decks/midnight-panel/templates/design_spec.md`](../decks/m
 | `09_chart_line.svg` | `chart_linear` | light | 2계열 추이 (실선/점선) |
 | `10_closing.svg` | `10_closing` | **dark** | 클로징 — 극성 반전 + 대형 마크 |
 
-Full specification: [`decks/polarity/templates/design_spec.md`](../decks/polarity/templates/design_spec.md) · identity-only preset: [`brands/polarity/`](../brands/polarity/)
+Full specification: [`decks/polarity/templates/design_spec.md`](../.claude/skills/ppt-master/templates/decks/polarity/templates/design_spec.md) · identity-only preset: [`brands/polarity/`](../.claude/skills/ppt-master/templates/brands/polarity/)
 
 ---
 
@@ -117,7 +117,7 @@ Full specification: [`decks/polarity/templates/design_spec.md`](../decks/polarit
 | `09_chart_line.svg` | `chart_linear` | white | 2계열 추이 |
 | `10_closing.svg` | `10_closing` | **navy** | 클로징 — 네이비 + 대형 마크 |
 
-Full specification: [`decks/gradient-mesh/templates/design_spec.md`](../decks/gradient-mesh/templates/design_spec.md) · identity-only preset: [`brands/gradient-mesh/`](../brands/gradient-mesh/)
+Full specification: [`decks/gradient-mesh/templates/design_spec.md`](../.claude/skills/ppt-master/templates/decks/gradient-mesh/templates/design_spec.md) · identity-only preset: [`brands/gradient-mesh/`](../.claude/skills/ppt-master/templates/brands/gradient-mesh/)
 
 ---
 
@@ -155,7 +155,7 @@ Full specification: [`decks/gradient-mesh/templates/design_spec.md`](../decks/gr
 | `09_chart_line.svg` | `chart_linear` | white | 2계열 추이 |
 | `10_closing.svg` | `10_closing` | **navy** | 클로징 |
 
-Full specification: [`decks/warm-doc/templates/design_spec.md`](../decks/warm-doc/templates/design_spec.md) · identity-only preset: [`brands/warm-doc/`](../brands/warm-doc/)
+Full specification: [`decks/warm-doc/templates/design_spec.md`](../.claude/skills/ppt-master/templates/decks/warm-doc/templates/design_spec.md) · identity-only preset: [`brands/warm-doc/`](../.claude/skills/ppt-master/templates/brands/warm-doc/)
 
 ---
 
@@ -193,7 +193,7 @@ Full specification: [`decks/warm-doc/templates/design_spec.md`](../decks/warm-do
 | `09_chart_line.svg` | `chart_linear` | white | 2계열 추이 |
 | `10_closing.svg` | `10_closing` | **carbon** | 클로징 — 카본 다크 |
 
-Full specification: [`decks/open-road/templates/design_spec.md`](../decks/open-road/templates/design_spec.md) · identity-only preset: [`brands/open-road/`](../brands/open-road/)
+Full specification: [`decks/open-road/templates/design_spec.md`](../.claude/skills/ppt-master/templates/decks/open-road/templates/design_spec.md) · identity-only preset: [`brands/open-road/`](../.claude/skills/ppt-master/templates/brands/open-road/)
 
 ---
 
@@ -231,7 +231,7 @@ Full specification: [`decks/open-road/templates/design_spec.md`](../decks/open-r
 | `09_chart_line.svg` | `chart_linear` | white | 2계열 추이 |
 | `10_closing.svg` | `10_closing` | **black** | 클로징 — 극성 반전 |
 
-Full specification: [`decks/signal-green/templates/design_spec.md`](../decks/signal-green/templates/design_spec.md) · identity-only preset: [`brands/signal-green/`](../brands/signal-green/)
+Full specification: [`decks/signal-green/templates/design_spec.md`](../.claude/skills/ppt-master/templates/decks/signal-green/templates/design_spec.md) · identity-only preset: [`brands/signal-green/`](../.claude/skills/ppt-master/templates/brands/signal-green/)
 
 ---
 
@@ -270,4 +270,4 @@ Full specification: [`decks/signal-green/templates/design_spec.md`](../decks/sig
 | `09_chart_line.svg` | `chart_linear` | white | 2계열 추이 — 오렌지 실선 + 그레이 점선 |
 | `10_closing.svg` | `10_closing` | **navy** | 클로징 — 60px 브랜드 마크 + 셰브론 |
 
-Full specification: [`decks/koscom-chevron/templates/design_spec.md`](../decks/koscom-chevron/templates/design_spec.md) · identity-only preset: [`brands/koscom-chevron/`](../brands/koscom-chevron/) · fonts: [`decks/koscom-chevron/fonts/FONTS.md`](../decks/koscom-chevron/fonts/FONTS.md)
+Full specification: [`decks/koscom-chevron/templates/design_spec.md`](../.claude/skills/ppt-master/templates/decks/koscom-chevron/templates/design_spec.md) · identity-only preset: [`brands/koscom-chevron/`](../.claude/skills/ppt-master/templates/brands/koscom-chevron/) · fonts: [`decks/koscom-chevron/fonts/FONTS.md`](../.claude/skills/ppt-master/templates/decks/koscom-chevron/fonts/FONTS.md)

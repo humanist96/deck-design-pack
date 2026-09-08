@@ -1,5 +1,33 @@
+# Python
 __pycache__/
 *.py[cod]
+.venv/
+venv/
+
+# Secrets / local env
+.env
+.env.*
+
+# Personal project workspace — decks and source material stay local
+projects/*
+!projects/README.md
+
+# Template library review artifacts (see templates/README.md — never copied by Step 3)
+.claude/skills/ppt-master/templates/*/*/exports/
+
+# Tool scratch
+.superpowers/
+.preview/
+node_modules/
+
+# Local planning and handoff documents
+docs/.superpowers/
+docs/handoff/
+docs/superpowers/
+
+# OS
 .DS_Store
-exports/
+Thumbs.db
+
+# Deck template contact-sheet rendering scratch
 _preview_render/

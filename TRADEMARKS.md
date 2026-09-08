@@ -26,7 +26,7 @@ Hex colour values, spacing scales, and corner-radius values are factual measurem
 
 ## Fonts
 
-**No font files are bundled by the six original templates.** `koscom-chevron` ships KoPub돋움체 (Korea Publishers Society; free to use and redistribute unmodified, no resale) under `decks/koscom-chevron/fonts/` with its licence note. Typography across the pack is locked to **Pretendard** (SIL Open Font License), which the consuming workspace supplies. Where a reference design uses a proprietary or separately-licensed typeface (for example Söhne, Geist, Universal Sans, or an in-house corporate face), that typeface is **not used and not shipped** — the templates reproduce its character through weight span, letter-spacing, and size ramp only.
+**No font files are bundled by the six original templates.** `koscom-chevron` ships KoPub돋움체 (Korea Publishers Society; free to use and redistribute unmodified, no resale) under `.claude/skills/ppt-master/templates/decks/koscom-chevron/fonts/` with its licence note. Typography across the pack is locked to **Pretendard** (SIL Open Font License), bundled with the embedded workflow at `.claude/skills/ppt-master/assets/fonts/Pretendard/`. Where a reference design uses a proprietary or separately-licensed typeface (for example Söhne, Geist, Universal Sans, or an in-house corporate face), that typeface is **not used and not shipped** — the templates reproduce its character through weight span, letter-spacing, and size ramp only.
 
 Because PPTX does not embed fonts, decks exported from these templates require Pretendard to be installed on any machine that opens them.
 
